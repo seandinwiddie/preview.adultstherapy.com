@@ -29,13 +29,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://adultstherapy.com/skills/</loc>
-		<lastmod>2022-12-16T10:53:57+00:00</lastmod>
-		<image:image>
-			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://adultstherapy.com/education/</loc>
 		<lastmod>2022-12-16T22:43:37+00:00</lastmod>
 		<image:image>
@@ -52,6 +45,13 @@
 	<url>
 		<loc>https://adultstherapy.com/therapy/</loc>
 		<lastmod>2023-03-01T21:34:57+00:00</lastmod>
+		<image:image>
+			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://adultstherapy.com/skills/</loc>
+		<lastmod>2023-03-02T03:02:23+00:00</lastmod>
 		<image:image>
 			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
 		</image:image>
