@@ -29,13 +29,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://adultstherapy.com/about/</loc>
-		<lastmod>2023-01-21T22:53:27+00:00</lastmod>
-		<image:image>
-			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://adultstherapy.com/skills/</loc>
 		<lastmod>2023-03-02T03:02:23+00:00</lastmod>
 		<image:image>
@@ -57,13 +50,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://adultstherapy.com/therapy/</loc>
-		<lastmod>2023-03-18T17:29:26+00:00</lastmod>
-		<image:image>
-			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://adultstherapy.com/therapy/cbt/</loc>
 		<lastmod>2023-03-18T17:32:58+00:00</lastmod>
 		<image:image>
@@ -73,6 +59,27 @@
 	<url>
 		<loc>https://adultstherapy.com/therapy/cpt/</loc>
 		<lastmod>2023-04-05T20:59:00+00:00</lastmod>
+		<image:image>
+			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://adultstherapy.com/therapy/</loc>
+		<lastmod>2023-04-18T21:56:25+00:00</lastmod>
+		<image:image>
+			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://adultstherapy.com/about/</loc>
+		<lastmod>2023-04-19T01:02:14+00:00</lastmod>
+		<image:image>
+			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://adultstherapy.com/therapy/gottmans-couple-therapy/</loc>
+		<lastmod>2023-04-19T02:27:37+00:00</lastmod>
 		<image:image>
 			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
 		</image:image>
