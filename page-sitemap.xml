@@ -57,13 +57,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://adultstherapy.com/therapy/</loc>
-		<lastmod>2023-05-17T02:02:42+00:00</lastmod>
-		<image:image>
-			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://adultstherapy.com/skills/</loc>
 		<lastmod>2023-05-17T02:04:51+00:00</lastmod>
 		<image:image>
@@ -80,6 +73,13 @@
 	<url>
 		<loc>https://adultstherapy.com/therapy/dbt/</loc>
 		<lastmod>2023-05-19T03:15:56+00:00</lastmod>
+		<image:image>
+			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://adultstherapy.com/therapy/</loc>
+		<lastmod>2023-05-19T04:17:13+00:00</lastmod>
 		<image:image>
 			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
 		</image:image>
