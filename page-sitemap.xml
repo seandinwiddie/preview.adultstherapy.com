@@ -36,13 +36,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://adultstherapy.com/therapy/talk-therapy/</loc>
-		<lastmod>2023-06-10T21:22:15+00:00</lastmod>
-		<image:image>
-			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://adultstherapy.com/therapy/cbt/</loc>
 		<lastmod>2023-06-10T21:43:08+00:00</lastmod>
 		<image:image>
@@ -87,6 +80,13 @@
 	<url>
 		<loc>https://adultstherapy.com/therapy/mindfulness/</loc>
 		<lastmod>2023-07-15T00:36:49+00:00</lastmod>
+		<image:image>
+			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://adultstherapy.com/therapy/talk-therapy/</loc>
+		<lastmod>2023-07-15T00:59:01+00:00</lastmod>
 		<image:image>
 			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
 		</image:image>
