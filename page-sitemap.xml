@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://adultstherapy.com/</loc>
-		<lastmod>2023-06-10T16:10:49+00:00</lastmod>
+		<lastmod>2023-08-11T00:16:20+00:00</lastmod>
 		<image:image>
 			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
 		</image:image>
@@ -29,13 +29,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://adultstherapy.com/therapy/</loc>
-		<lastmod>2023-06-10T21:13:00+00:00</lastmod>
-		<image:image>
-			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://adultstherapy.com/skills/</loc>
 		<lastmod>2023-06-10T23:54:39+00:00</lastmod>
 		<image:image>
@@ -45,13 +38,6 @@
 	<url>
 		<loc>https://adultstherapy.com/education/</loc>
 		<lastmod>2023-06-11T00:00:16+00:00</lastmod>
-		<image:image>
-			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://adultstherapy.com/about/</loc>
-		<lastmod>2023-06-11T00:07:00+00:00</lastmod>
 		<image:image>
 			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
 		</image:image>
@@ -89,6 +75,44 @@
 		<lastmod>2023-07-15T01:51:31+00:00</lastmod>
 		<image:image>
 			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://adultstherapy.com/therapy/</loc>
+		<lastmod>2023-08-11T08:46:30+00:00</lastmod>
+		<image:image>
+			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://adultstherapy.com/wp-content/uploads/2023/08/AdobeStock_403278580-scaled.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://adultstherapy.com/wp-content/uploads/2023/08/AdobeStock_445552369-scaled.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://adultstherapy.com/wp-content/uploads/2023/08/AdobeStock_336147018-scaled.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://adultstherapy.com/wp-content/uploads/2023/08/AdobeStock_106766632-scaled.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://adultstherapy.com/wp-content/uploads/2023/08/AdobeStock_509308106-scaled.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://adultstherapy.com/wp-content/uploads/2023/08/AdobeStock_413177557-scaled.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://adultstherapy.com/wp-content/uploads/2023/08/AdobeStock_416527740-scaled.jpeg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://adultstherapy.com/about/</loc>
+		<lastmod>2023-08-11T08:59:41+00:00</lastmod>
+		<image:image>
+			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://adultstherapy.com/wp-content/uploads/2022/12/elaine-dinwiddie.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
