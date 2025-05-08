@@ -5,7 +5,7 @@
 ### Homepage
 1. [x] Update main heading to "Adults and Couples Therapy of Oregon: Evidence-Based"
 2. [x] Add keyword-rich subtitle: "Specialized treatment for depression, anxiety, and relationship issues with proven therapeutic approaches"
-3. [ ] Add structured data markup for local therapy business
+3. [x] Add structured data markup for local therapy business
 4. [ ] Ensure meta description includes primary keywords and a call to action
 
 ### Gottman Therapy Page (Highest Traffic)
