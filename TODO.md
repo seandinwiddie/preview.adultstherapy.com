@@ -62,7 +62,7 @@ Pages:
 
 ### Military Page
 19. [x] Enhance with specific information about trauma-informed approaches for veterans
-20. [ ] Include relevant keywords related to military personnel and trauma
+20. [x] Include relevant keywords related to military personnel and trauma
 
 ## Priority 3: Technical SEO Improvements
 
