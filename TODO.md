@@ -2,9 +2,28 @@
 
 ## Priority 1: High-Traffic Page Optimizations
 
-### Homepage
+### Header (Sitewide)
+
 1. [x] Update main heading to "Adults and Couples Therapy of Oregon: Evidence-Based"
 2. [x] Add keyword-rich subtitle: "Specialized treatment for depression, anxiety, and relationship issues with proven therapeutic approaches"
+Pages:
+1. [x] index.html (Adults and Couples Therapy of Oregon)
+2. [x] about/index.html (About)
+3. [x] education/index.html (Education)
+4. [x] privacy/index.html (Privacy)
+5. [x] sitemap/index.html (Sitemap)
+6. [x] skills/index.html (Skills)
+7. [x] terms/index.html (Terms)
+8. [x] therapy/index.html (Therapy)
+9. [x] therapy/cbt/index.html (Cognitive Behavioral Therapy)
+10. [x] therapy/dbt/index.html (Dialectical Behavior Therapy)
+11. [x] therapy/gottman/index.html (Gottman's Couple Therapy)
+12. [x] therapy/military/index.html (Military)
+13. [x] therapy/mindfulness/index.html (Mindfulness)
+14. [x] therapy/talk-therapy/index.html (Talk Therapy)
+   - *These changes have been implemented across all pages of the site*
+
+### Homepage
 3. [x] Add structured data markup for local therapy business
 4. [ ] Ensure meta description includes primary keywords and a call to action
 
