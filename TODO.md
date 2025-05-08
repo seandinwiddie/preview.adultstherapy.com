@@ -58,7 +58,7 @@ Pages:
 
 ### Skills Section
 17. [x] Restructure to target keyword "therapy skills for adults" 
-18. [ ] Add more actionable content that visitors can implement
+18. [x] Add more actionable content that visitors can implement
 
 ### Military Page
 19. [ ] Enhance with specific information about trauma-informed approaches for veterans
