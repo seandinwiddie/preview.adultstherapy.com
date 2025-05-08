@@ -260,6 +260,17 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <link rel="icon" href="https://adultstherapy.com/wp-content/uploads/2022/10/cropped-Adults_and_Couples_Therapy_of_Oregon-1-192x192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="https://adultstherapy.com/wp-content/uploads/2022/10/cropped-Adults_and_Couples_Therapy_of_Oregon-1-180x180.png">
 <meta name="msapplication-TileImage" content="https://adultstherapy.com/wp-content/uploads/2022/10/cropped-Adults_and_Couples_Therapy_of_Oregon-1-270x270.png">
+<script>
+if (window.location.hostname === 'preview.adultstherapy.com') {
+  document.addEventListener('click', function(e) {
+    const link = e.target.closest('a');
+    if (link && link.href.includes('adultstherapy.com')) {
+      e.preventDefault();
+      window.location.href = link.href.replace('adultstherapy.com', 'preview.adultstherapy.com');
+    }
+  });
+}
+</script>
 </head>
 
 <body class="home page-template-default page page-id-16 wp-custom-logo wp-embed-responsive">
