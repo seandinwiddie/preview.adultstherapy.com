@@ -41,10 +41,10 @@ Pages:
 
 ### About Page (Second Highest Traffic)
 9. [x] Update title to "About Elaine Dinwiddie | Licensed Gottman Therapist in Oregon"
-10. [ ] Enhance professional credentials section with more details about:
-  - [ ] Gottman training and certification specifics
-  - [ ] EMDR and trauma qualification details
-  - [ ] Years of experience and specializations
+10. [x] Enhance professional credentials section with more details about:
+  - [x] Gottman training and certification specifics
+  - [x] EMDR and trauma qualification details
+  - [x] Years of experience and specializations
 11. [ ] Add anonymized case studies demonstrating successful therapy outcomes
 12. [ ] Include more location-specific information
 
