@@ -61,7 +61,7 @@ Pages:
 18. [x] Add more actionable content that visitors can implement
 
 ### Military Page
-19. [ ] Enhance with specific information about trauma-informed approaches for veterans
+19. [x] Enhance with specific information about trauma-informed approaches for veterans
 20. [ ] Include relevant keywords related to military personnel and trauma
 
 ## Priority 3: Technical SEO Improvements
