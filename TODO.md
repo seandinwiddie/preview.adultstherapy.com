@@ -11,21 +11,21 @@
 ### Gottman Therapy Page (Highest Traffic)
 5. [ ] Rename page title to "Gottman Method Couples Therapy | Evidence-Based Relationship Counseling"
 6. [ ] Expand content to 1000+ words with comprehensive information about:
-  6.a. [ ] Gottman techniques and principles
-  6.b. [ ] Success rates and research backing
-  6.c. [ ] Specific relationship problems addressed
+  6. a. [ ] Gottman techniques and principles
+  6. b. [ ] Success rates and research backing
+  6. c. [ ] Specific relationship problems addressed
 7. [ ] Add naturally placed phrases like "gottman couples therapy session" and "evidence-based couples counseling"
 8. [ ] Create FAQ section answering common questions evident in search data:
-  8.a. [ ] "What is Gottman couples therapy?"
-  8.b. [ ] "Is Gottman method evidence-based?"
-  8.c. [ ] "How does couples therapy help relationships?"
+  8. a. [ ] "What is Gottman couples therapy?"
+  8. b. [ ] "Is Gottman method evidence-based?"
+  8. c. [ ] "How does couples therapy help relationships?"
 
 ### About Page (Second Highest Traffic)
 9. [ ] Update title to "About Elaine Dinwiddie | Licensed Gottman Therapist in Oregon"
 10. [ ] Enhance professional credentials section with more details about:
-  10.a. [ ] Gottman training and certification specifics
-  10.b. [ ] EMDR and trauma qualification details
-  10.c. [ ] Years of experience and specializations
+  10. a. [ ] Gottman training and certification specifics
+  10. b. [ ] EMDR and trauma qualification details
+  10. c. [ ] Years of experience and specializations
 11. [ ] Add anonymized case studies demonstrating successful therapy outcomes
 12. [ ] Include more location-specific information
 
@@ -51,9 +51,9 @@
 21. [ ] Review and update all page titles to be unique and under 60 characters
 22. [ ] Create compelling meta descriptions (150-160 characters) for all pages
 23. [ ] Implement schema markup for:
-  23.a. [ ] Therapist information
-  23.b. [ ] Local business details
-  23.c. [ ] Service offerings
+  23. a. [ ] Therapist information
+  23. b. [ ] Local business details
+  23. c. [ ] Service offerings
 
 ### Website Structure
 24. [ ] Add breadcrumb navigation on all pages
