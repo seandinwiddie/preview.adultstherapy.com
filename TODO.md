@@ -29,15 +29,15 @@ Pages:
 
 ### Gottman Therapy Page (Highest Traffic)
 5. [x] Rename page title to "Gottman Method Couples Therapy | Evidence-Based Relationship Counseling"
-6. [ ] Expand content to 1000+ words with comprehensive information about:
-  - [ ] Gottman techniques and principles
-  - [ ] Success rates and research backing
-  - [ ] Specific relationship problems addressed
-7. [ ] Add naturally placed phrases like "gottman couples therapy session" and "evidence-based couples counseling"
-8. [ ] Create FAQ section answering common questions evident in search data:
-  - [ ] "What is Gottman couples therapy?"
-  - [ ] "Is Gottman method evidence-based?"
-  - [ ] "How does couples therapy help relationships?"
+6. [x] Expand content to 1000+ words with comprehensive information about:
+  - [x] Gottman techniques and principles
+  - [x] Success rates and research backing
+  - [x] Specific relationship problems addressed
+7. [x] Add naturally placed phrases like "gottman couples therapy session" and "evidence-based couples counseling"
+8. [x] Create FAQ section answering common questions evident in search data:
+  - [x] "What is Gottman couples therapy?"
+  - [x] "Is Gottman method evidence-based?"
+  - [x] "How does couples therapy help relationships?"
 
 ### About Page (Second Highest Traffic)
 9. [ ] Update title to "About Elaine Dinwiddie | Licensed Gottman Therapist in Oregon"
