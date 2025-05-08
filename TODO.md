@@ -57,7 +57,7 @@ Pages:
 16. [x] Add internal links between related therapy approaches
 
 ### Skills Section
-17. [ ] Restructure to target keyword "therapy skills for adults" 
+17. [x] Restructure to target keyword "therapy skills for adults" 
 18. [ ] Add more actionable content that visitors can implement
 
 ### Military Page
