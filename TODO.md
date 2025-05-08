@@ -28,7 +28,7 @@ Pages:
 4. [x] Ensure meta description includes primary keywords and a call to action
 
 ### Gottman Therapy Page (Highest Traffic)
-5. [ ] Rename page title to "Gottman Method Couples Therapy | Evidence-Based Relationship Counseling"
+5. [x] Rename page title to "Gottman Method Couples Therapy | Evidence-Based Relationship Counseling"
 6. [ ] Expand content to 1000+ words with comprehensive information about:
   - [ ] Gottman techniques and principles
   - [ ] Success rates and research backing
