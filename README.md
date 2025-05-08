@@ -85,6 +85,23 @@ The site follows a WordPress-derived structure with static HTML exports:
 - Google Analytics integration
 - XML sitemap generation
 
+### Preview Domain Link Handling
+The site includes a JavaScript solution to handle links between the preview and production domains:
+
+```javascript
+if (window.location.hostname === 'preview.adultstherapy.com') {
+  document.addEventListener('click', function(e) {
+    const link = e.target.closest('a');
+    if (link && link.href.includes('adultstherapy.com')) {
+      e.preventDefault();
+      window.location.href = link.href.replace('adultstherapy.com', 'preview.adultstherapy.com');
+    }
+  });
+}
+```
+
+This script is added to all pages to ensure that when viewing the site on the preview domain, users stay on the preview domain when clicking internal links rather than being redirected to the production site.
+
 ### Design Elements
 - Color scheme: Purple (#7e679b) and blue (#99b4df)
 - Centered content with clear visual hierarchy
