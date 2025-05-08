@@ -52,7 +52,7 @@ Pages:
 
 ### Therapy Pages
 13. [x] Create dedicated content addressing the search query: "When 'the positive perspective' is present in a couple's relationship, what can that help the therapist determine about the couple's relationship?"
-14. [ ] Expand content on Talk Therapy page (currently getting moderate traffic)
+14. [x] Expand content on Talk Therapy page (currently getting moderate traffic)
 15. [ ] Enhance CBT and DBT pages with more comprehensive information
 16. [ ] Add internal links between related therapy approaches
 
