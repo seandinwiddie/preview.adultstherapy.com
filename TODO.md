@@ -25,7 +25,7 @@ Pages:
 
 ### Homepage
 3. [x] Add structured data markup for local therapy business
-4. [ ] Ensure meta description includes primary keywords and a call to action
+4. [x] Ensure meta description includes primary keywords and a call to action
 
 ### Gottman Therapy Page (Highest Traffic)
 5. [ ] Rename page title to "Gottman Method Couples Therapy | Evidence-Based Relationship Counseling"
