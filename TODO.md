@@ -54,7 +54,7 @@ Pages:
 13. [x] Create dedicated content addressing the search query: "When 'the positive perspective' is present in a couple's relationship, what can that help the therapist determine about the couple's relationship?"
 14. [x] Expand content on Talk Therapy page (currently getting moderate traffic)
 15. [x] Enhance CBT and DBT pages with more comprehensive information
-16. [ ] Add internal links between related therapy approaches
+16. [x] Add internal links between related therapy approaches
 
 ### Skills Section
 17. [ ] Restructure to target keyword "therapy skills for adults" 
