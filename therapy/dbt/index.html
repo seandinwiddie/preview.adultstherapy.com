@@ -129,6 +129,89 @@
 	            "image": {
 	                "@id": "https://adultstherapy.com/#/schema/logo/image/"
 	            }
+	        },
+	        {
+	            "@type": "Service",
+	            "@id": "https://adultstherapy.com/therapy/dbt/#service",
+	            "name": "Dialectical Behavior Therapy (DBT)",
+	            "description": "Comprehensive, evidence-based psychotherapy combining CBT techniques with mindfulness practices to treat emotional dysregulation and related issues.",
+	            "provider": {
+	                "@id": "https://adultstherapy.com/#organization"
+	            },
+	            "serviceType": "Mental Health Therapy",
+	            "areaServed": {
+	                "@type": "State",
+	                "name": "Oregon"
+	            },
+	            "audience": {
+	                "@type": "Audience",
+	                "audienceType": "Adults"
+	            },
+	            "availableChannel": {
+	                "@type": "ServiceChannel",
+	                "serviceUrl": "https://adultstherapy.com/therapy/dbt/",
+	                "servicePhone": "+15413638817",
+	                "serviceLocation": {
+	                    "@type": "Place",
+	                    "name": "Virtual/Telehealth"
+	                }
+	            },
+	            "offers": {
+	                "@type": "Offer",
+	                "category": "Mental Health Services",
+	                "eligibleRegion": {
+	                    "@type": "State",
+	                    "name": "Oregon"
+	                },
+	                "offeredBy": {
+	                    "@type": "Person",
+	                    "@id": "https://adultstherapy.com/#person"
+	                }
+	            },
+	            "termsOfService": "https://adultstherapy.com/terms/",
+	            "serviceOutput": {
+	                "@type": "Thing",
+	                "name": "Improved Emotional Regulation Skills",
+	                "description": "Enhanced ability to manage intense emotions, tolerate distress, improve interpersonal effectiveness, and practice mindfulness."
+	            }
+	        },
+	        {
+	            "@type": "MedicalTherapy",
+	            "@id": "https://adultstherapy.com/therapy/dbt/#medicalTherapy",
+	            "name": "Dialectical Behavior Therapy",
+	            "description": "A type of cognitive behavioral therapy focused on teaching psychosocial skills to help people live in the moment, cope healthily with stress, regulate emotions, and improve relationships with others.",
+	            "medicineSystem": "Western Medicine",
+	            "recognizingAuthority": {
+	                "@type": "Organization",
+	                "name": "American Psychological Association",
+	                "sameAs": "https://www.apa.org/"
+	            },
+	            "guideline": {
+	                "@type": "MedicalGuideline",
+	                "evidenceLevel": "A - Strong",
+	                "evidenceOrigin": "Multiple randomized controlled trials",
+	                "guidelineSubject": {
+	                    "@type": "MedicalEntity",
+	                    "name": "Emotional Dysregulation"
+	                }
+	            },
+	            "howPerformed": "DBT typically involves individual therapy sessions, skills training groups, phone coaching, and a therapist consultation team. Focuses on teaching four core skills modules: Mindfulness, Distress Tolerance, Emotion Regulation, and Interpersonal Effectiveness.",
+	            "procedure": [
+	                "Mindfulness practices",
+	                "Distress tolerance skill-building (e.g., self-soothing, improving the moment)",
+	                "Emotion regulation techniques (e.g., identifying emotions, opposite action)",
+	                "Interpersonal effectiveness training (e.g., assertiveness, maintaining relationships)"
+	            ],
+	            "normalRange": {
+	                "@type": "MedicalEnumeration",
+	                "name": "Treatment Duration",
+	                "value": "Standard comprehensive DBT typically lasts 6 months to 1 year, though adaptations exist."
+	            },
+	            "indication": {
+	                "@type": "MedicalIndication",
+	                "name": "Conditions Treated by DBT",
+	                "description": "DBT is primarily used to treat Borderline Personality Disorder (BPD), but is also effective for PTSD, substance use disorders, eating disorders, depression, and anxiety."
+	            }
 	        }
 	    ]
 	}</script>
