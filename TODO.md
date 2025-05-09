@@ -68,26 +68,58 @@ Pages:
 
 ### Metadata
 21. [x] Review and update all page titles to be unique and under 60 characters
+Pages:
+1. [x] index.html (Adults and Couples Therapy of Oregon)
+2. [x] about/index.html (About)
+3. [x] education/index.html (Education)
+4. [x] privacy/index.html (Privacy)
+5. [x] sitemap/index.html (Sitemap)
+6. [x] skills/index.html (Skills)
+7. [x] terms/index.html (Terms)
+8. [x] therapy/index.html (Therapy)
+9. [x] therapy/cbt/index.html (Cognitive Behavioral Therapy)
+10. [x] therapy/dbt/index.html (Dialectical Behavior Therapy)
+11. [x] therapy/gottman/index.html (Gottman's Couple Therapy)
+12. [x] therapy/military/index.html (Military)
+13. [x] therapy/mindfulness/index.html (Mindfulness)
+14. [x] therapy/talk-therapy/index.html (Talk Therapy)
+
 22. [x] Create compelling meta descriptions (150-160 characters) for all pages
-  Pages:
-  1. [x] index.html (Adults and Couples Therapy of Oregon)
-  2. [x] about/index.html (About)
-  3. [x] education/index.html (Education)
-  4. [x] privacy/index.html (Privacy)
-  5. [x] sitemap/index.html (Sitemap)
-  6. [x] skills/index.html (Skills)
-  7. [x] terms/index.html (Terms)
-  8. [x] therapy/index.html (Therapy)
-  9. [x] therapy/cbt/index.html (Cognitive Behavioral Therapy)
-  10. [x] therapy/dbt/index.html (Dialectical Behavior Therapy)
-  11. [x] therapy/gottman/index.html (Gottman's Couple Therapy)
-  12. [x] therapy/military/index.html (Military)
-  13. [x] therapy/mindfulness/index.html (Mindfulness)
-  14. [x] therapy/talk-therapy/index.html (Talk Therapy)
-23. [ ] Implement schema markup for:
-  - [ ] Therapist information
-  - [ ] Local business details
-  - [ ] Service offerings
+Pages:
+1. [x] index.html (Adults and Couples Therapy of Oregon)
+2. [x] about/index.html (About)
+3. [x] education/index.html (Education)
+4. [x] privacy/index.html (Privacy)
+5. [x] sitemap/index.html (Sitemap)
+6. [x] skills/index.html (Skills)
+7. [x] terms/index.html (Terms)
+8. [x] therapy/index.html (Therapy)
+9. [x] therapy/cbt/index.html (Cognitive Behavioral Therapy)
+10. [x] therapy/dbt/index.html (Dialectical Behavior Therapy)
+11. [x] therapy/gottman/index.html (Gottman's Couple Therapy)
+12. [x] therapy/military/index.html (Military)
+13. [x] therapy/mindfulness/index.html (Mindfulness)
+14. [x] therapy/talk-therapy/index.html (Talk Therapy)
+
+23. [x] Implement schema markup for:
+  - [x] Therapist information
+  - [x] Local business details
+  - [x] Service offerings
+Pages:
+1. [x] index.html (Adults and Couples Therapy of Oregon)
+2. [x] about/index.html (About)
+3. [x] education/index.html (Education)
+4. [x] privacy/index.html (Privacy)
+5. [x] sitemap/index.html (Sitemap)
+6. [x] skills/index.html (Skills)
+7. [x] terms/index.html (Terms)
+8. [x] therapy/index.html (Therapy)
+9. [x] therapy/cbt/index.html (Cognitive Behavioral Therapy)
+10. [x] therapy/dbt/index.html (Dialectical Behavior Therapy)
+11. [x] therapy/gottman/index.html (Gottman's Couple Therapy)
+12. [x] therapy/military/index.html (Military)
+13. [x] therapy/mindfulness/index.html (Mindfulness)
+14. [x] therapy/talk-therapy/index.html (Talk Therapy)
 
 ### Website Structure
 24. [ ] Add breadcrumb navigation on all pages
