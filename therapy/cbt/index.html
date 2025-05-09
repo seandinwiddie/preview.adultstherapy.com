@@ -131,6 +131,112 @@
 	            "image": {
 	                "@id": "https://adultstherapy.com/#/schema/logo/image/"
 	            }
+	        },
+	        {
+	            "@type": "Service",
+	            "@id": "https://adultstherapy.com/therapy/cbt/#service",
+	            "name": "Cognitive Behavioral Therapy (CBT)",
+	            "description": "Evidence-based therapy that helps identify and change negative thought patterns and behaviors affecting emotions and mental well-being.",
+	            "provider": {
+	                "@id": "https://adultstherapy.com/#organization"
+	            },
+	            "serviceType": "Mental Health Therapy",
+	            "areaServed": {
+	                "@type": "State",
+	                "name": "Oregon"
+	            },
+	            "audience": {
+	                "@type": "Audience",
+	                "audienceType": "Adults"
+	            },
+	            "availableChannel": {
+	                "@type": "ServiceChannel",
+	                "serviceUrl": "https://adultstherapy.com/therapy/cbt/",
+	                "servicePhone": "+15413638817",
+	                "serviceLocation": {
+	                    "@type": "Place",
+	                    "name": "Virtual/Telehealth"
+	                }
+	            },
+	            "offers": {
+	                "@type": "Offer",
+	                "category": "Mental Health Services",
+	                "eligibleRegion": {
+	                    "@type": "State",
+	                    "name": "Oregon"
+	                },
+	                "offeredBy": {
+	                    "@type": "Person",
+	                    "@id": "https://adultstherapy.com/#person"
+	                }
+	            },
+	            "termsOfService": "https://adultstherapy.com/terms/",
+	            "serviceOutput": {
+	                "@type": "Thing",
+	                "name": "Improved Mental Health",
+	                "description": "Reduced symptoms of anxiety, depression, and other mental health conditions through cognitive restructuring and behavioral change."
+	            }
+	        },
+	        {
+	            "@type": "MedicalTherapy",
+	            "@id": "https://adultstherapy.com/therapy/cbt/#medicalTherapy",
+	            "name": "Cognitive Behavioral Therapy",
+	            "description": "A psychological treatment approach that helps patients identify and change negative thought patterns and behaviors affecting their emotions.",
+	            "medicineSystem": "Western Medicine",
+	            "recognizingAuthority": {
+	                "@type": "Organization",
+	                "name": "American Psychological Association",
+	                "sameAs": "https://www.apa.org/"
+	            },
+	            "study": [
+	                {
+	                    "@type": "MedicalStudy",
+	                    "headline": "Effectiveness for Depression",
+	                    "description": "Evidence shows CBT is highly effective for treating depression, with success rates comparable to medication."
+	                },
+	                {
+	                    "@type": "MedicalStudy",
+	                    "headline": "Effectiveness for Anxiety",
+	                    "description": "Research demonstrates CBT's effectiveness in reducing symptoms of various anxiety disorders including GAD, social anxiety, and panic disorder."
+	                },
+	                {
+	                    "@type": "MedicalStudy",
+	                    "headline": "Long-term Results",
+	                    "description": "Studies show CBT provides lasting results with lower relapse rates compared to medication-only treatments."
+	                }
+	            ],
+	            "guideline": {
+	                "@type": "MedicalGuideline",
+	                "evidenceLevel": "A - Strong",
+	                "evidenceOrigin": "Multiple randomized controlled trials",
+	                "guidelineSubject": {
+	                    "@type": "MedicalEntity",
+	                    "name": "Mental Health Conditions"
+	                }
+	            },
+	            "howPerformed": "CBT is typically delivered in structured weekly sessions focusing on identifying cognitive distortions, challenging negative thoughts, and developing healthier behavioral patterns.",
+	            "procedure": [
+	                "Initial assessment and goal setting",
+	                "Identifying negative thought patterns",
+	                "Learning cognitive restructuring techniques",
+	                "Practicing behavioral activation",
+	                "Developing coping strategies",
+	                "Gradual exposure to feared situations (when appropriate)",
+	                "Relapse prevention planning"
+	            ],
+	            "normalRange": {
+	                "@type": "MedicalEnumeration",
+	                "name": "Treatment Duration",
+	                "value": "Typically 8-20 weekly sessions, though duration varies based on individual needs"
+	            },
+	            "preparation": "No special preparation required; clients are asked to come ready to engage in collaborative discussion about their thoughts and feelings.",
+	            "followup": "Progress is continuously monitored during sessions, with many clients benefiting from occasional 'booster' sessions after completing the main course of treatment.",
+	            "seriousAdverseOutcome": "None known. CBT is considered a low-risk treatment with very few contraindications.",
+	            "indication": {
+	                "@type": "MedicalIndication",
+	                "name": "Conditions Treated by CBT",
+	                "description": "CBT is indicated for a wide range of mental health conditions including depression, anxiety disorders, PTSD, OCD, phobias, sleep disorders, and more."
+	            }
 	        }
 	    ]
 	}</script>
