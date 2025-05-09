@@ -291,6 +291,47 @@ if (window.location.hostname === 'preview.adultstherapy.com') {
   });
 }
 </script>
+<style>
+/* Eliminate gap between header and breadcrumbs */
+header.wp-block-template-part {
+  margin-bottom: 0;
+}
+.wp-site-blocks > header.wp-block-template-part + nav {
+  margin-top: 0;
+}
+.breadcrumbs {
+  list-style: none;
+  padding: 10px 16px; /* Horizontal padding */
+  margin: 0; /* Remove vertical margin to fix gap */
+  margin-top: -1px; /* Stick to header */
+  font-size: 1em; /* Normal text size */
+  background-color: #f8f9fa; /* Light gray background */
+  border-bottom: 1px solid #dee2e6; /* Subtle bottom border */
+  position: relative; /* Enable positioning context */
+  top: -1px; /* Pull up slightly */
+}
+.breadcrumbs-item {
+  display: inline-block; /* Keep items on one line */
+}
+.breadcrumbs-item::after {
+  content: ">"; /* Separator */
+  margin: 0 8px; /* Space around separator */
+  color: #6c757d; /* Separator color (gray) */
+}
+.breadcrumbs-item:last-child::after {
+  content: ""; /* No separator after the last item */
+}
+.breadcrumbs-item a {
+  text-decoration: none;
+  color: #7e679b; /* Changed from blue to purple to match site theme */
+}
+.breadcrumbs-item a:hover {
+  text-decoration: underline; /* Hover effect for links */
+}
+.breadcrumbs-item.current-item { /* For the current page text */
+  color: #495057; /* Current page text color (dark gray) */
+}
+</style>
 </head>
 
 <body class="page-template-default page page-id-265 page-child parent-pageid-69 wp-custom-logo wp-embed-responsive">
