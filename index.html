@@ -361,9 +361,38 @@
 	}</script>
 	<!-- / Yoast SEO plugin. -->
 
+<style>
+.breadcrumbs {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+.breadcrumbs-item {
+  display: inline-block;
+  margin-right: 5px;
+}
+.breadcrumbs-item::after {
+  content: ">";
+  margin-left: 5px;
+  color: #6c757d;
+}
+.breadcrumbs-item:last-child::after {
+  content: "";
+}
+.breadcrumbs-item a {
+  text-decoration: none;
+  color: #007bff;
+}
+.breadcrumbs-item.current-item a {
+  color: #343a40;
+  font-weight: bold;
+}
+</style>
+
 
 <title>Adults and Couples Therapy of Oregon: Evidence-Based</title>
-<link rel="alternate" type="application/rss+xml" title="Adults and Couples Therapy of Oregon &raquo; Feed" href="https://adultstherapy.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Adults and Couples Therapy of Oregon: Evidence-Based &raquo; Feed" href="https://adultstherapy.com/feed/">
 <link rel="alternate" type="application/rss+xml" title="Adults and Couples Therapy of Oregon &raquo; Comments Feed" href="https://adultstherapy.com/comments/feed/">
 <script>
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/adultstherapy.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.1"}};
@@ -502,6 +531,12 @@ if (window.location.hostname === 'preview.adultstherapy.com') {
 				</div></nav>
 </div>
 </header>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumbs">
+    <li class="breadcrumbs-item current-item"><a href="/">Home</a></li>
+  </ol>
+</nav>
 
 
 <main class="wp-block-query is-layout-flow wp-block-query-is-layout-flow">
