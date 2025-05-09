@@ -122,101 +122,105 @@ Pages:
 14. [x] therapy/talk-therapy/index.html (Talk Therapy)
 
 ### Website Structure
-24. [x] Add breadcrumb navigation on all pages
+24. [ ] Add breadcrumb navigation on all pages
   Pages:
-  1. [x] index.html (Adults and Couples Therapy of Oregon)
-  2. [x] about/index.html (About)
-  3. [x] education/index.html (Education)
-  4. [x] privacy/index.html (Privacy)
-  5. [x] sitemap/index.html (Sitemap)
-  6. [x] skills/index.html (Skills)
-  7. [x] terms/index.html (Terms)
-  8. [x] therapy/index.html (Therapy)
-  9. [x] therapy/cbt/index.html (Cognitive Behavioral Therapy)
-  10. [x] therapy/dbt/index.html (Dialectical Behavior Therapy)
-  11. [x] therapy/gottman/index.html (Gottman's Couple Therapy)
-  12. [x] therapy/military/index.html (Military)
-  13. [x] therapy/mindfulness/index.html (Mindfulness)
-  14. [x] therapy/talk-therapy/index.html (Talk Therapy)
+  1. [ ] index.html (Adults and Couples Therapy of Oregon)
+  2. [ ] about/index.html (About)
+  3. [ ] education/index.html (Education)
+  4. [ ] privacy/index.html (Privacy)
+  5. [ ] sitemap/index.html (Sitemap)
+  6. [ ] skills/index.html (Skills)
+  7. [ ] terms/index.html (Terms)
+  8. [ ] therapy/index.html (Therapy)
+  9. [ ] therapy/cbt/index.html (Cognitive Behavioral Therapy)
+  10. [ ] therapy/dbt/index.html (Dialectical Behavior Therapy)
+  11. [ ] therapy/gottman/index.html (Gottman's Couple Therapy)
+  12. [ ] therapy/military/index.html (Military)
+  13. [ ] therapy/mindfulness/index.html (Mindfulness)
+  14. [ ] therapy/talk-therapy/index.html (Talk Therapy)
 
 ### Content Strategy
-25. [ ] Add location-specific content for surrounding areas in Oregon
+25. [x] Add location-specific content for surrounding areas in Oregon
 
 ## Priority 4: Conversion Optimization
 
 26. [ ] Add clear calls-to-action on all high-traffic pages
 27. [ ] Create a dedicated contact/booking content with structured data
 28. [ ] Add testimonials throughout the site (anonymized)
+29. [ ] Remove American Psychological Association (APA) membership references from all pages, including:
+  - [ ] Remove APA logo and member text from footer on all HTML pages
+  - [ ] Remove APA references from schema data in about/index.html, therapy/cbt/index.html, therapy/dbt/index.html
+  - [ ] Update README.md to remove APA membership reference
 
 ## Priority 5: Visual Design Improvements
 
 ### Layout and Structure
-29. [ ] Add more whitespace between sections to improve readability
-30. [ ] Implement consistent content width across all pages
-31. [ ] Break up large text blocks into smaller, more digestible sections
-32. [ ] Create more distinct visual hierarchy on all pages
-33. [ ] Ensure proper spacing and alignment of elements
+30. [ ] Add more whitespace between sections to improve readability
+31. [ ] Implement consistent content width across all pages
+32. [ ] Break up large text blocks into smaller, more digestible sections
+33. [ ] Create more distinct visual hierarchy on all pages
+34. [ ] Ensure proper spacing and alignment of elements
 
 ### Navigation Enhancement
-34. [ ] Make dropdown menus more visually distinctive with subtle animations
-35. [ ] Add visual indicators for current page in navigation
-36. [ ] Consider implementing a sticky header on scroll
+35. [ ] Make dropdown menus more visually distinctive with subtle animations
+36. [ ] Add visual indicators for current page in navigation
+37. [ ] Consider implementing a sticky header on scroll
 
 ### Color and Typography
-37. [ ] Create more cohesive application of purple (#7e679b) and blue (#99b4df) color scheme
-38. [ ] Add complementary accent color for calls-to-action
-39. [ ] Ensure sufficient color contrast for accessibility
-40. [ ] Increase line spacing in paragraph text
-41. [ ] Create more dramatic contrast between heading and body text sizes
+38. [ ] Create more cohesive application of purple (#7e679b) and blue (#99b4df) color scheme
+39. [ ] Add complementary accent color for calls-to-action
+40. [ ] Ensure sufficient color contrast for accessibility
+41. [ ] Increase line spacing in paragraph text
+42. [ ] Create more dramatic contrast between heading and body text sizes
 
 ### Visual Elements
-42. [ ] Add appropriate therapy-related imagery throughout the site
-43. [ ] Implement subtle background patterns in header/footer areas
-44. [ ] Add professional headshot with consistent styling across pages
-45. [ ] Create visual icons for different therapy modalities
-46. [ ] Add visual dividers between content sections
+43. [ ] Add appropriate therapy-related imagery throughout the site
+44. [ ] Implement subtle background patterns in header/footer areas
+45. [ ] Add professional headshot with consistent styling across pages
+46. [ ] Create visual icons for different therapy modalities
+47. [ ] Add visual dividers between content sections
 
 ### Page-Specific Design
-47. [ ] Homepage: Create impactful hero section with background image
-48. [ ] Homepage: Add visual cards for each therapy approach with icons
-49. [ ] Homepage: Implement testimonial carousel with subtle styling
-50. [ ] Therapy Pages: Create consistent visual templates for all modality pages
-51. [ ] Therapy Pages: Add relevant imagery for each approach
-52. [ ] About Page: Enhance professional photo presentation
-53. [ ] About Page: Create visual timeline showing education/certification journey
-54. [ ] About Page: Add visual elements to highlight professional affiliations
+48. [ ] Homepage: Create impactful hero section with background image
+49. [ ] Homepage: Add visual cards for each therapy approach with icons
+50. [ ] Homepage: Implement testimonial carousel with subtle styling
+51. [ ] Therapy Pages: Create consistent visual templates for all modality pages
+52. [ ] Therapy Pages: Add relevant imagery for each approach
+53. [ ] About Page: Enhance professional photo presentation
+54. [ ] About Page: Create visual timeline showing education/certification journey
+55. [ ] About Page: Add visual elements to highlight professional affiliations
 
 ### Functional Design
-55. [ ] Make phone/email buttons more prominent with complementary colors
-56. [ ] Add floating contact button for accessibility
-57. [ ] Optimize image sizes for faster loading
+56. [ ] Make phone/email buttons more prominent with complementary colors
+57. [ ] Add floating contact button for accessibility
+58. [ ] Optimize image sizes for faster loading
 
 ## Priority 6: Ad Copy & Content Optimization
 
 ### High-Converting Language
-58. [ ] Incorporate high-performing words in headings and CTAs: "your," "free," "now," "get," "save"
-59. [ ] Use second-person pronouns ("you," "your") throughout copy to speak directly to visitors
-60. [ ] Focus on positive sentiment in copy (benefits gained) rather than negative (problems avoided)
-61. [ ] Implement strong action verbs like "get," "find," "discover" in calls-to-action
-62. [ ] Create urgency with words like "now" and time-sensitive language
+59. [ ] Incorporate high-performing words in headings and CTAs: "your," "free," "now," "get," "save"
+60. [ ] Use second-person pronouns ("you," "your") throughout copy to speak directly to visitors
+61. [ ] Focus on positive sentiment in copy (benefits gained) rather than negative (problems avoided)
+62. [ ] Implement strong action verbs like "get," "find," "discover" in calls-to-action
+63. [ ] Create urgency with words like "now" and time-sensitive language
 
 ### Readability Improvements
-63. [ ] Simplify content to approximately 9th grade reading level (14-year-old comprehension)
-64. [ ] Break long sentences into shorter, more digestible ones
-65. [ ] Use bullet points to highlight key benefits and services
-66. [ ] Implement strategic use of exclamation points (the highest-performing punctuation)
-67. [ ] Ensure good lexical diversity (avoid keyword stuffing and repetition)
+64. [ ] Simplify content to approximately 9th grade reading level (14-year-old comprehension)
+65. [ ] Break long sentences into shorter, more digestible ones
+66. [ ] Use bullet points to highlight key benefits and services
+67. [ ] Implement strategic use of exclamation points (the highest-performing punctuation)
+68. [ ] Ensure good lexical diversity (avoid keyword stuffing and repetition)
 
 ### Emotional Appeal
-68. [ ] Add benefit-focused subheadings that address emotional needs
-69. [ ] Create clear value propositions for each therapy service
-70. [ ] Incorporate "power words" that trigger emotional responses
-71. [ ] Use the PAS formula (Problem-Agitate-Solution) in key content sections
-72. [ ] Include social proof elements (credentials, testimonials, success statistics)
+69. [ ] Add benefit-focused subheadings that address emotional needs
+70. [ ] Create clear value propositions for each therapy service
+71. [ ] Incorporate "power words" that trigger emotional responses
+72. [ ] Use the PAS formula (Problem-Agitate-Solution) in key content sections
+73. [ ] Include social proof elements (credentials, testimonials, success statistics)
 
 ### Content Structure
-73. [ ] Make copy scannable with descriptive subheadings
-74. [ ] Use the "Bucket Brigade" technique to keep readers engaged
-75. [ ] Implement strategic use of numbers (only when they add value)
-76. [ ] Create compelling FAQ content with conversational questions
-77. [ ] Follow the AIDA formula (Attention, Interest, Desire, Action) for key landing pages
+74. [ ] Make copy scannable with descriptive subheadings
+75. [ ] Use the "Bucket Brigade" technique to keep readers engaged
+76. [ ] Implement strategic use of numbers (only when they add value)
+77. [ ] Create compelling FAQ content with conversational questions
+78. [ ] Follow the AIDA formula (Attention, Interest, Desire, Action) for key landing pages
