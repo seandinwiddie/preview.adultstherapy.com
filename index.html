@@ -364,29 +364,32 @@
 <style>
 .breadcrumbs {
   list-style: none;
-  padding: 10px 0;
-  margin: 0;
-  font-size: 0.9em;
+  padding: 10px 16px; /* Horizontal padding */
+  margin: 20px 0; /* Vertical margin */
+  font-size: 1em; /* Normal text size */
+  background-color: #f8f9fa; /* Light gray background */
+  border-bottom: 1px solid #dee2e6; /* Subtle bottom border */
 }
 .breadcrumbs-item {
-  display: inline-block;
-  margin-right: 5px;
+  display: inline-block; /* Keep items on one line */
 }
 .breadcrumbs-item::after {
-  content: ">";
-  margin-left: 5px;
-  color: #6c757d;
+  content: ">"; /* Separator */
+  margin: 0 8px; /* Space around separator */
+  color: #6c757d; /* Separator color (gray) */
 }
 .breadcrumbs-item:last-child::after {
-  content: "";
+  content: ""; /* No separator after the last item */
 }
 .breadcrumbs-item a {
   text-decoration: none;
-  color: #007bff;
+  color: #007bff; /* Link color (blue) */
 }
-.breadcrumbs-item.current-item a {
-  color: #343a40;
-  font-weight: bold;
+.breadcrumbs-item a:hover {
+  text-decoration: underline; /* Hover effect for links */
+}
+.breadcrumbs-item.current-item { /* For the current page text */
+  color: #495057; /* Current page text color (dark gray) */
 }
 </style>
 
@@ -534,7 +537,7 @@ if (window.location.hostname === 'preview.adultstherapy.com') {
 
 <nav aria-label="breadcrumb">
   <ol class="breadcrumbs">
-    <li class="breadcrumbs-item current-item"><a href="/">Home</a></li>
+    <li class="breadcrumbs-item current-item">Home</li>
   </ol>
 </nav>
 
