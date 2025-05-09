@@ -234,6 +234,37 @@
 	}</script>
 	<!-- / Yoast SEO plugin. -->
 
+<style>
+.breadcrumbs {
+  list-style: none;
+  padding: 10px 16px; /* Horizontal padding */
+  margin: 20px 0; /* Vertical margin */
+  font-size: 1em; /* Normal text size */
+  background-color: #f8f9fa; /* Light gray background */
+  border-bottom: 1px solid #dee2e6; /* Subtle bottom border */
+}
+.breadcrumbs-item {
+  display: inline-block; /* Keep items on one line */
+}
+.breadcrumbs-item::after {
+  content: ">"; /* Separator */
+  margin: 0 8px; /* Space around separator */
+  color: #6c757d; /* Separator color (gray) */
+}
+.breadcrumbs-item:last-child::after {
+  content: ""; /* No separator after the last item */
+}
+.breadcrumbs-item a {
+  text-decoration: none;
+  color: #007bff; /* Link color (blue) */
+}
+.breadcrumbs-item a:hover {
+  text-decoration: underline; /* Hover effect for links */
+}
+.breadcrumbs-item.current-item { /* For the current page text */
+  color: #495057; /* Current page text color (dark gray) */
+}
+</style>
 
 <title>Gottman Method Couples Therapy | Evidence-Based Relationship Counseling</title>
 <link rel="alternate" type="application/rss+xml" title="Adults and Couples Therapy of Oregon &raquo; Feed" href="https://adultstherapy.com/feed/">
@@ -382,7 +413,7 @@ if (window.location.hostname === 'preview.adultstherapy.com') {
   <ol class="breadcrumbs">
     <li class="breadcrumbs-item"><a href="/">Home</a></li>
     <li class="breadcrumbs-item"><a href="/therapy/">Therapy</a></li>
-    <li class="breadcrumbs-item current-item"><a href="/therapy/gottman/">Gottman's Couple Therapy</a></li>
+    <li class="breadcrumbs-item current-item">Gottman&#8217;s Couple Therapy</li>
   </ol>
 </nav>
 
