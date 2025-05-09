@@ -129,6 +129,26 @@
 	                "https://energypsych.org/",
 	                "https://www.oregon.gov/oblpct"
 	            ],
+	            "address": {
+	                "@type": "PostalAddress",
+	                "addressLocality": "Klamath Falls",
+	                "addressRegion": "OR",
+	                "postalCode": "97601",
+	                "addressCountry": "US"
+	            },
+	            "geo": {
+	                "@type": "GeoCoordinates",
+	                "latitude": 42.224867,
+	                "longitude": -121.7816704
+	            },
+	            "openingHoursSpecification": [
+	                {
+	                    "@type": "OpeningHoursSpecification",
+	                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+	                    "opens": "09:00",
+	                    "closes": "17:00"
+	                }
+	            ],
 	            "serviceArea": {
 	                "@type": "State",
 	                "name": "Oregon"
@@ -136,23 +156,43 @@
 	            "availableService": [
 	                {
 	                    "@type": "HealthAndBeautyBusiness",
-	                    "name": "Gottman Method Couples Therapy"
+	                    "name": "Gottman Method Couples Therapy",
+	                    "description": "Evidence-based approach to couples therapy focused on improving communication and relationship quality."
 	                },
 	                {
 	                    "@type": "HealthAndBeautyBusiness",
-	                    "name": "EMDR Therapy"
+	                    "name": "EMDR Therapy",
+	                    "description": "Eye Movement Desensitization and Reprocessing therapy for trauma treatment and PTSD."
 	                },
 	                {
 	                    "@type": "HealthAndBeautyBusiness",
-	                    "name": "Trauma-Informed Therapy"
+	                    "name": "Trauma-Informed Therapy",
+	                    "description": "Specialized approach for clients with trauma histories, including military trauma."
 	                },
 	                {
 	                    "@type": "HealthAndBeautyBusiness",
-	                    "name": "Depression Treatment"
+	                    "name": "Depression Treatment",
+	                    "description": "Evidence-based approaches to treating depression and mood disorders."
 	                },
 	                {
 	                    "@type": "HealthAndBeautyBusiness",
-	                    "name": "Anxiety Treatment"
+	                    "name": "Anxiety Treatment",
+	                    "description": "Effective therapeutic techniques for managing anxiety disorders."
+	                },
+	                {
+	                    "@type": "HealthAndBeautyBusiness",
+	                    "name": "Cognitive Behavioral Therapy (CBT)",
+	                    "description": "Structured approach to changing thought patterns and behaviors for improved mental health."
+	                },
+	                {
+	                    "@type": "HealthAndBeautyBusiness",
+	                    "name": "Dialectical Behavior Therapy (DBT)",
+	                    "description": "Skills-based therapy focusing on emotion regulation and mindfulness."
+	                },
+	                {
+	                    "@type": "HealthAndBeautyBusiness",
+	                    "name": "Mindfulness-Based Therapy",
+	                    "description": "Present-focused approach to reducing stress and improving emotional regulation."
 	                }
 	            ],
 	            "knowsAbout": [
@@ -165,8 +205,157 @@
 	                "EMDR",
 	                "OCD",
 	                "Phobias",
-	                "Bipolar"
+	                "Bipolar",
+	                "Military Trauma",
+	                "Cognitive Behavioral Therapy",
+	                "Dialectical Behavior Therapy",
+	                "Mindfulness"
 	            ]
+	        },
+	        {
+	            "@type": "Person",
+	            "@id": "https://adultstherapy.com/#person",
+	            "name": "Elaine Dinwiddie",
+	            "description": "Licensed Professional Counselor specializing in evidence-based therapy for adults and couples.",
+	            "image": "https://adultstherapy.com/wp-content/uploads/2025/02/Elaine-Dinwiddie-1-225x300.jpeg",
+	            "jobTitle": "Licensed Professional Counselor",
+	            "worksFor": {
+	                "@id": "https://adultstherapy.com/#organization"
+	            },
+	            "url": "https://adultstherapy.com/about/",
+	            "telephone": "+15413638817",
+	            "email": "elaine@adultstherapy.com",
+	            "alumniOf": "Liberty University",
+	            "hasCredential": [
+	                {
+	                    "@type": "EducationalOccupationalCredential",
+	                    "credentialCategory": "license",
+	                    "name": "Licensed Professional Counselor",
+	                    "educationalLevel": "Master's Degree",
+	                    "validIn": {
+	                        "@type": "State",
+	                        "name": "Oregon"
+	                    },
+	                    "recognizedBy": {
+	                        "@type": "Organization",
+	                        "name": "Oregon Board of Licensed Professional Counselors and Therapists"
+	                    }
+	                },
+	                {
+	                    "@type": "EducationalOccupationalCredential",
+	                    "credentialCategory": "certification",
+	                    "name": "Gottman Method Couples Therapy Level 2 Practitioner"
+	                },
+	                {
+	                    "@type": "EducationalOccupationalCredential",
+	                    "credentialCategory": "certification",
+	                    "name": "EMDR Level 2"
+	                },
+	                {
+	                    "@type": "EducationalOccupationalCredential",
+	                    "credentialCategory": "certification",
+	                    "name": "Certified Clinical Trauma Professional (CCTP I)"
+	                }
+	            ],
+	            "knowsAbout": [
+	                "Depression Treatment",
+	                "Anxiety Therapy",
+	                "Couples Therapy",
+	                "Trauma-Informed Care",
+	                "EMDR",
+	                "Gottman Method",
+	                "Military Trauma",
+	                "PTSD"
+	            ]
+	        },
+	        {
+	            "@type": "MedicalSpecialty",
+	            "@id": "https://adultstherapy.com/#mentalhealth",
+	            "name": "Mental Health Therapy",
+	            "description": "Evidence-based therapy approaches for treating mental health conditions and improving emotional wellbeing.",
+	            "medicalSpecialty": {
+	                "@type": "MedicalSpecialty",
+	                "name": "Psychiatry"
+	            },
+	            "relevantSpecialty": [
+	                {
+	                    "@type": "MedicalSpecialty",
+	                    "name": "Trauma Treatment"
+	                },
+	                {
+	                    "@type": "MedicalSpecialty",
+	                    "name": "Couples Therapy"
+	                },
+	                {
+	                    "@type": "MedicalSpecialty",
+	                    "name": "Depression & Anxiety Treatment"
+	                }
+	            ]
+	        },
+	        {
+	            "@type": "Service",
+	            "@id": "https://adultstherapy.com/#therapy",
+	            "name": "Evidence-Based Therapy Services",
+	            "description": "Professional counseling services for individuals and couples using proven therapeutic approaches.",
+	            "provider": {
+	                "@id": "https://adultstherapy.com/#organization"
+	            },
+	            "serviceType": "Mental Health Therapy",
+	            "areaServed": {
+	                "@type": "State",
+	                "name": "Oregon"
+	            },
+	            "audience": {
+	                "@type": "Audience",
+	                "audienceType": "Adults"
+	            },
+	            "availableChannel": {
+	                "@type": "ServiceChannel",
+	                "serviceUrl": "https://adultstherapy.com/",
+	                "servicePhone": "+15413638817",
+	                "serviceLocation": {
+	                    "@type": "Place",
+	                    "name": "Virtual/Telehealth"
+	                }
+	            },
+	            "hasOfferCatalog": {
+	                "@type": "OfferCatalog",
+	                "name": "Therapy Services",
+	                "itemListElement": [
+	                    {
+	                        "@type": "Offer",
+	                        "itemOffered": {
+	                            "@type": "Service",
+	                            "name": "Individual Therapy",
+	                            "description": "One-on-one therapy sessions for adults dealing with depression, anxiety, trauma, and other mental health challenges."
+	                        }
+	                    },
+	                    {
+	                        "@type": "Offer",
+	                        "itemOffered": {
+	                            "@type": "Service",
+	                            "name": "Couples Therapy",
+	                            "description": "Gottman Method-based therapy for couples working through relationship challenges and communication issues."
+	                        }
+	                    },
+	                    {
+	                        "@type": "Offer",
+	                        "itemOffered": {
+	                            "@type": "Service",
+	                            "name": "EMDR Therapy",
+	                            "description": "Specialized therapy for trauma processing and PTSD treatment."
+	                        }
+	                    },
+	                    {
+	                        "@type": "Offer",
+	                        "itemOffered": {
+	                            "@type": "Service",
+	                            "name": "Military & Veteran Therapy",
+	                            "description": "Specialized trauma-informed treatment for military personnel and veterans."
+	                        }
+	                    }
+	                ]
+	            }
 	        }
 	    ]
 	}</script>
