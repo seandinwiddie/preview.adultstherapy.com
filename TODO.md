@@ -145,7 +145,7 @@ Pages:
 ## Priority 4: Conversion Optimization
 
 26. [x] Add clear calls-to-action on all high-traffic pages
-27. [ ] Create a dedicated contact/booking content with structured data
+27. [x] Create a dedicated contact/booking content with structured data on the About page
 28. [ ] Add testimonials throughout the site (anonymized)
 29. [ ] Remove American Psychological Association (APA) membership references from all pages, including:
   - [ ] Remove APA logo and member text from footer on all HTML pages
