@@ -17,7 +17,6 @@ This repository contains the website for Adults and Couples Therapy of Oregon, a
 - Licensed in Oregon (LPC #C5403)
 - Memberships in multiple professional organizations:
   - American Counseling Association (ACA)
-  - American Psychological Association (APA)
   - Association for Comprehensive Energy Psychology (ACEP)
 
 ## Site Structure

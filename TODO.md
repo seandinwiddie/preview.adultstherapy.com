@@ -146,11 +146,11 @@ Pages:
 
 26. [x] Add clear calls-to-action on all high-traffic pages
 27. [x] Create a dedicated contact/booking content with structured data on the About page
-28. [ ] Add testimonials throughout the site (anonymized)
-29. [ ] Remove American Psychological Association (APA) membership references from all pages, including:
-  - [ ] Remove APA logo and member text from footer on all HTML pages
-  - [ ] Remove APA references from schema data in about/index.html, therapy/cbt/index.html, therapy/dbt/index.html
-  - [ ] Update README.md to remove APA membership reference
+28. [ ] Add testimonials throughout the site (anonymized) - SKIP THIS FOR NOW
+29. [x] Remove American Psychological Association (APA) membership references from all pages, including:
+  - [x] Remove APA logo and member text from footer on all HTML pages
+  - [x] Remove APA references from schema data in HTML files
+  - [x] Update README.md to remove APA membership reference
 
 ## Priority 5: Visual Design Improvements
 
