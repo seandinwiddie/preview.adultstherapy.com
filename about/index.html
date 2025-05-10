@@ -677,6 +677,130 @@ header.wp-block-template-part {
 <p><!-- /vcwb/dynamicElementComment:e2b42b91 --><!--vcv no format--></p>
 
 
+<!-- Dedicated Contact/Booking Section with Structured Data -->
+<div id="book-appointment" class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:var(--wp--preset--spacing--70);padding:var(--wp--preset--spacing--50);background-color:#f0f0f5;border-radius:8px;">
+    <h2 class="wp-block-heading has-text-align-center has-large-font-size">Schedule Your Appointment</h2>
+    
+    <div class="wp-block-columns are-vertically-aligned-center is-layout-flex" style="margin-top:30px;">
+        <div class="wp-block-column is-vertically-aligned-center is-layout-flow" style="flex-basis:60%;">
+            <h3 class="wp-block-heading">Book a Session</h3>
+            <p>Ready to begin your journey toward healing and growth? I offer flexible scheduling options including:</p>
+            <ul>
+                <li><strong>Initial Consultations:</strong> 30-minute complimentary phone consultations to discuss your needs</li>
+                <li><strong>Individual Therapy:</strong> 50-minute sessions for adults</li>
+                <li><strong>Couples Therapy:</strong> 80-minute sessions for relationship counseling</li>
+                <li><strong>Telehealth Sessions:</strong> Secure video appointments available throughout Oregon</li>
+            </ul>
+            <p>Insurance accepted: Most major insurance plans, including BlueCross BlueShield, Providence, PacificSource, and more. Verification of benefits available upon request.</p>
+        </div>
+        
+        <div class="wp-block-column is-vertically-aligned-center is-layout-flow" style="flex-basis:40%;border-left:1px solid #dddddd;padding-left:30px;">
+            <h3 class="wp-block-heading">Contact Information</h3>
+            <p><strong>Phone:</strong> <a href="tel:+15413638817">541-363-8817</a></p>
+            <p><strong>Email:</strong> <a href="mailto:elaine@adultstherapy.com">elaine@adultstherapy.com</a></p>
+            <p><strong>Hours:</strong> Monday-Friday: 9:00 AM - 5:00 PM</p>
+            <p><strong>Location:</strong> Telehealth services throughout Oregon</p>
+            
+            <div class="wp-block-buttons is-layout-flex" style="margin-top:20px;">
+                <div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" href="tel:+15413638817" style="background-color:#7e679b;color:white;"><strong>Call Now</strong></a></div>
+                <div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" href="mailto:elaine@adultstherapy.com?subject=Appointment%20Request" style="background-color:#7e679b;color:white;"><strong>Email for Appointment</strong></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Structured Data for Appointment Booking (hidden from users) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HealthAndBeautyBusiness",
+  "name": "Adults and Couples Therapy of Oregon",
+  "url": "https://adultstherapy.com/about/",
+  "logo": "https://adultstherapy.com/wp-content/uploads/2022/10/Adults_and_Couples_Therapy_of_Oregon.png",
+  "image": "https://adultstherapy.com/wp-content/uploads/2025/02/Elaine-Dinwiddie-1-225x300.jpeg",
+  "description": "Licensed professional counseling services specializing in evidence-based therapy for adults and couples in Oregon, with certifications in Gottman Method, EMDR, and trauma-informed care.",
+  "telephone": "+15413638817",
+  "email": "elaine@adultstherapy.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Klamath Falls",
+    "addressRegion": "OR",
+    "postalCode": "97601",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 42.224867,
+    "longitude": -121.781146
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "17:00"
+    }
+  ],
+  "priceRange": "$$",
+  "serviceType": [
+    "Individual Therapy",
+    "Couples Therapy",
+    "Gottman Method",
+    "EMDR",
+    "Trauma Therapy",
+    "Telehealth"
+  ],
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "name": "Initial Consultation",
+      "description": "30-minute complimentary phone consultation to discuss your needs",
+      "price": "0.00",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    {
+      "@type": "Offer",
+      "name": "Individual Therapy Session",
+      "description": "50-minute individual therapy session",
+      "price": "120.00",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    {
+      "@type": "Offer",
+      "name": "Couples Therapy Session",
+      "description": "80-minute couples therapy session",
+      "price": "160.00",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    }
+  ],
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "tel:+15413638817",
+      "inLanguage": "en-US",
+      "actionPlatform": [
+        "http://schema.org/MobileWebPlatform",
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Book therapy appointment"
+    }
+  }
+}
+</script>
+
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:var(--wp--preset--spacing--70);padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);background-color:#7e679b;">
     <h2 class="wp-block-heading has-text-align-center has-large-font-size has-white-color has-text-color">Let's Work Together</h2>
     
