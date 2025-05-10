@@ -148,9 +148,39 @@ Pages:
 27. [x] Create a dedicated contact/booking content with structured data on the About page
 28. [ ] Add testimonials throughout the site (anonymized) - SKIP THIS FOR NOW
 29. [x] Remove American Psychological Association (APA) membership references from all pages, including:
-  - [x] Remove APA logo and member text from footer on all HTML pages
-  - [x] Remove APA references from schema data in HTML files
-  - [x] Update README.md to remove APA membership reference
+  - [ ] Remove APA logo and member text from footer on all HTML pages
+    Pages:
+    1. [x] index.html (Adults and Couples Therapy of Oregon)
+    2. [x] about/index.html (About)
+    3. [x] education/index.html (Education)
+    4. [ ] privacy/index.html (Privacy)
+    5. [ ] sitemap/index.html (Sitemap)
+    6. [ ] skills/index.html (Skills)
+    7. [ ] terms/index.html (Terms)
+    8. [ ] therapy/index.html (Therapy)
+    9. [ ] therapy/cbt/index.html (Cognitive Behavioral Therapy)
+    10. [ ] therapy/dbt/index.html (Dialectical Behavior Therapy)
+    11. [ ] therapy/gottman/index.html (Gottman's Couple Therapy)
+    12. [ ] therapy/military/index.html (Military)
+    13. [ ] therapy/mindfulness/index.html (Mindfulness)
+    14. [ ] therapy/talk-therapy/index.html (Talk Therapy)
+  - [ ] Remove APA references from schema data in all pages
+    Pages:
+    1. [x] index.html (Adults and Couples Therapy of Oregon)
+    2. [x] about/index.html (About)
+    3. [x] education/index.html (Education)
+    4. [ ] privacy/index.html (Privacy)
+    5. [ ] sitemap/index.html (Sitemap)
+    6. [ ] skills/index.html (Skills)
+    7. [ ] terms/index.html (Terms)
+    8. [ ] therapy/index.html (Therapy)
+    9. [ ] therapy/cbt/index.html (Cognitive Behavioral Therapy)
+    10. [ ] therapy/dbt/index.html (Dialectical Behavior Therapy)
+    11. [ ] therapy/gottman/index.html (Gottman's Couple Therapy)
+    12. [ ] therapy/military/index.html (Military)
+    13. [ ] therapy/mindfulness/index.html (Mindfulness)
+    14. [ ] therapy/talk-therapy/index.html (Talk Therapy)
+  - [ ] Update README.md to remove APA membership reference
 
 ## Priority 5: Visual Design Improvements
 
