@@ -147,8 +147,8 @@ Pages:
 26. [x] Add clear calls-to-action on all high-traffic pages
 27. [x] Create a dedicated contact/booking content with structured data on the About page
 28. [ ] Add testimonials throughout the site (anonymized) - SKIP THIS FOR NOW
-29. [x] Remove American Psychological Association (APA) membership references from all pages, including:
-  - [ ] Remove APA logo and member text from footer on all HTML pages
+29. [ ] Remove American Psychological Association (APA) membership references from all pages, including:
+  1. [x] Remove American Psychological Association (APA) logo and member text from footer on all HTML pages
     Pages:
     1. [x] index.html (Adults and Couples Therapy of Oregon)
     2. [x] about/index.html (About)
@@ -160,11 +160,11 @@ Pages:
     8. [x] therapy/index.html (Therapy)
     9. [x] therapy/cbt/index.html (Cognitive Behavioral Therapy)
     10. [x] therapy/dbt/index.html (Dialectical Behavior Therapy)
-    11. [ ] therapy/gottman/index.html (Gottman's Couple Therapy)
-    12. [ ] therapy/military/index.html (Military)
-    13. [ ] therapy/mindfulness/index.html (Mindfulness)
-    14. [ ] therapy/talk-therapy/index.html (Talk Therapy)
-  - [ ] Remove APA references from schema data in all pages
+    11. [x] therapy/gottman/index.html (Gottman's Couple Therapy)
+    12. [x] therapy/military/index.html (Military)
+    13. [x] therapy/mindfulness/index.html (Mindfulness)
+    14. [x] therapy/talk-therapy/index.html (Talk Therapy)
+  2. [ ] Remove American Psychological Association (APA) references from schema data in all pages
     Pages:
     1. [ ] index.html (Adults and Couples Therapy of Oregon)
     2. [ ] about/index.html (About)
