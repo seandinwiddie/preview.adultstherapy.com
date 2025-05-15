@@ -4,6 +4,9 @@
  */
 
 document.addEventListener('DOMContentLoaded', function() {
+  // Add inline CSS for navigation highlighting
+  addInlineNavigationStyles();
+
   // Add current-menu-item class to navigation items based on current URL
   highlightCurrentPage();
   
@@ -16,6 +19,47 @@ document.addEventListener('DOMContentLoaded', function() {
   // Improve dropdown accessibility for keyboard users
   enhanceKeyboardAccessibility();
 });
+
+/**
+ * Adds inline CSS styles to ensure navigation highlighting works
+ */
+function addInlineNavigationStyles() {
+  const styleTag = document.createElement('style');
+  styleTag.id = 'nav-highlight-styles';
+  styleTag.innerHTML = `
+    /* Direct navigation highlighting styles */
+    .wp-block-navigation-item.current-menu-item > a,
+    .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content {
+      color: #7e679b !important;
+      font-weight: bold !important;
+      border-bottom: 2px solid #7e679b !important;
+      padding-bottom: 3px !important;
+    }
+    
+    .wp-block-navigation-item.current-menu-parent > a,
+    .wp-block-navigation-item.current-menu-parent > .wp-block-navigation-item__content {
+      color: #7e679b !important;
+    }
+    
+    /* Ensure the styles work for Education, About, Skills and Therapy links */
+    body[class*="page-education"] .wp-block-navigation a[href*="/education/"],
+    body[class*="page-about"] .wp-block-navigation a[href*="/about/"],
+    body[class*="page-skills"] .wp-block-navigation a[href*="/skills/"],
+    body[class*="page-therapy"] .wp-block-navigation a[href*="/therapy/"] {
+      color: #7e679b !important;
+      font-weight: bold !important;
+    }
+    
+    /* Submenu items */
+    .wp-block-navigation__submenu-container .current-menu-item > a {
+      background-color: rgba(126, 103, 155, 0.1) !important;
+      color: #7e679b !important;
+      font-weight: bold !important;
+    }
+  `;
+  
+  document.head.appendChild(styleTag);
+}
 
 /**
  * Highlights the current active page in the navigation
@@ -192,88 +236,144 @@ function enhanceKeyboardAccessibility() {
  * This provides a more reliable way to highlight the current page
  */
 function addActiveNavigationMarkers() {
+  // Get the current URL path
   const currentPath = window.location.pathname;
-  // Remove trailing slash for consistency in comparison
-  const normalizedCurrentPath = currentPath.endsWith('/') ? currentPath.slice(0, -1) : currentPath;
+  console.log('Current path:', currentPath);
   
-  // Map of page paths to their corresponding navigation links
-  const pageToNavMap = {
-    '/': 'a[href="/"]',
-    '/education': 'a[href*="/education"]',
-    '/about': 'a[href*="/about"]',
-    '/skills': 'a[href*="/skills"]',
-    '/therapy': 'a[href*="/therapy"]',
-    '/therapy/cbt': 'a[href*="/therapy/cbt"]',
-    '/therapy/dbt': 'a[href*="/therapy/dbt"]',
-    '/therapy/gottman': 'a[href*="/therapy/gottman"]',
-    '/therapy/military': 'a[href*="/therapy/military"]',
-    '/therapy/mindfulness': 'a[href*="/therapy/mindfulness"]',
-    '/therapy/talk-therapy': 'a[href*="/therapy/talk-therapy"]',
-    '/privacy': 'a[href*="/privacy"]',
-    '/terms': 'a[href*="/terms"]', 
-    '/sitemap': 'a[href*="/sitemap"]',
-  };
+  // Get all navigation links
+  const navLinks = document.querySelectorAll('.wp-block-navigation a');
+  console.log('Total nav links found:', navLinks.length);
   
-  // First, remove any existing active markers
-  document.querySelectorAll('[data-nav-active="true"]').forEach(el => {
-    el.removeAttribute('data-nav-active');
-    el.style.color = '';
-    el.style.fontWeight = '';
+  // Clear any previously set active states
+  navLinks.forEach(link => {
+    link.style.color = '';
+    link.style.fontWeight = '';
+    link.style.borderBottom = '';
+    link.style.paddingBottom = '';
+    link.parentElement.classList.remove('current-menu-item');
+    link.parentElement.classList.remove('current-menu-parent');
   });
   
-  // Check if we're on a therapy subpage
-  let isTherapySubpage = false;
-  if (normalizedCurrentPath.startsWith('/therapy/')) {
-    isTherapySubpage = true;
-    
-    // Try to find the specific therapy page link
-    const specificSelector = pageToNavMap[normalizedCurrentPath];
-    if (specificSelector) {
-      const specificLinks = document.querySelectorAll(specificSelector);
-      specificLinks.forEach(link => {
-        link.setAttribute('data-nav-active', 'true');
-        link.style.color = '#7e679b';
-        link.style.fontWeight = 'bold';
-        
-        // Also mark the parent item
-        const parentItem = link.closest('.wp-block-navigation-submenu');
-        if (parentItem) {
-          const parentLink = parentItem.querySelector(':scope > a');
-          if (parentLink) {
-            parentLink.setAttribute('data-nav-parent-active', 'true');
-            parentLink.style.color = '#7e679b';
-          }
-        }
-      });
+  // Define a mapping for the specific sections we saw in the screenshots
+  const sectionMap = {
+    '/about/': 'About',
+    '/education/': 'Education',
+    '/skills/': 'Skills',
+    '/therapy/': 'Therapy'
+  };
+  
+  // Determine the active section
+  let activeSection = '';
+  for (const path in sectionMap) {
+    if (currentPath.includes(path)) {
+      activeSection = sectionMap[path];
+      break;
     }
+  }
+  
+  // If we found an active section, highlight it
+  if (activeSection) {
+    console.log('Active section:', activeSection);
     
-    // Always highlight the main Therapy link for any therapy subpage
-    const therapyLinks = document.querySelectorAll(pageToNavMap['/therapy']);
-    therapyLinks.forEach(link => {
-      // Only select the main Therapy link, not subpage links
-      if (!link.closest('.wp-block-navigation__submenu-container')) {
-        link.setAttribute('data-nav-active', 'true');
-        link.style.color = '#7e679b';
-        link.style.fontWeight = 'bold';
-      }
-    });
-  } else {
-    // For non-therapy pages, use the direct mapping
-    const selector = pageToNavMap[normalizedCurrentPath];
-    if (selector) {
-      const links = document.querySelectorAll(selector);
-      links.forEach(link => {
-        // Skip submenu links except when explicitly matching them
-        if (!link.closest('.wp-block-navigation__submenu-container') || 
-            normalizedCurrentPath.includes('/therapy/')) {
-          link.setAttribute('data-nav-active', 'true');
+    // Find navigation item with that text
+    const navItems = document.querySelectorAll('.wp-block-navigation-item');
+    navItems.forEach(item => {
+      // Check if text content includes the section name
+      const linkText = item.textContent.trim();
+      
+      if (linkText === activeSection) {
+        console.log('Found matching nav item:', linkText);
+        const link = item.querySelector('a');
+        if (link) {
           link.style.color = '#7e679b';
           link.style.fontWeight = 'bold';
+          link.style.borderBottom = '2px solid #7e679b';
+          link.style.paddingBottom = '3px';
+          item.classList.add('current-menu-item');
+        }
+      }
+    });
+  }
+  
+  // Match the current URL against navigation links as well (for safety)
+  navLinks.forEach(link => {
+    if (!link.href) return;
+    
+    // Simple direct URL comparison
+    if (link.href === window.location.href || 
+        link.href === window.location.origin + currentPath) {
+      console.log('EXACT MATCH:', link.href);
+      
+      // Style the link and its parent
+      link.style.color = '#7e679b';
+      link.style.fontWeight = 'bold';
+      link.style.borderBottom = '2px solid #7e679b';
+      link.style.paddingBottom = '3px';
+      link.parentElement.classList.add('current-menu-item');
+      
+      // If in a submenu, also mark the parent item
+      const submenuContainer = link.closest('.wp-block-navigation__submenu-container');
+      if (submenuContainer) {
+        const parentSubmenu = submenuContainer.parentElement;
+        if (parentSubmenu) {
+          const parentLink = parentSubmenu.querySelector(':scope > a');
+          if (parentLink) {
+            parentLink.style.color = '#7e679b';
+            parentSubmenu.classList.add('current-menu-parent');
+          }
+        }
+      }
+    }
+    // Check for section matches (for example, any therapy page should highlight the Therapy menu)
+    else if (currentPath.includes('/therapy/') && link.href.includes('/therapy') && 
+             !link.closest('.wp-block-navigation__submenu-container')) {
+      console.log('SECTION MATCH (Therapy):', link.href);
+      link.style.color = '#7e679b';
+      link.style.fontWeight = 'bold';
+      link.style.borderBottom = '2px solid #7e679b';
+      link.style.paddingBottom = '3px';
+      link.parentElement.classList.add('current-menu-item');
+    }
+    else if (currentPath.includes('/education') && link.href.includes('/education')) {
+      console.log('SECTION MATCH (Education):', link.href);
+      link.style.color = '#7e679b';
+      link.style.fontWeight = 'bold';
+      link.style.borderBottom = '2px solid #7e679b';
+      link.style.paddingBottom = '3px';
+      link.parentElement.classList.add('current-menu-item');
+    }
+    else if (currentPath.includes('/about') && link.href.includes('/about')) {
+      console.log('SECTION MATCH (About):', link.href);
+      link.style.color = '#7e679b';
+      link.style.fontWeight = 'bold';
+      link.style.borderBottom = '2px solid #7e679b';
+      link.style.paddingBottom = '3px';
+      link.parentElement.classList.add('current-menu-item');
+    }
+    else if (currentPath.includes('/skills') && link.href.includes('/skills')) {
+      console.log('SECTION MATCH (Skills):', link.href);
+      link.style.color = '#7e679b';
+      link.style.fontWeight = 'bold';
+      link.style.borderBottom = '2px solid #7e679b';
+      link.style.paddingBottom = '3px';
+      link.parentElement.classList.add('current-menu-item');
+    }
+  });
+  
+  // If we're on a specific therapy page, make sure the corresponding submenu item is also highlighted
+  if (currentPath.includes('/therapy/')) {
+    // Get the therapy type from the URL
+    const therapyType = currentPath.split('/therapy/')[1]?.split('/')[0];
+    
+    if (therapyType) {
+      navLinks.forEach(link => {
+        if (link.href.includes(`/therapy/${therapyType}`)) {
+          console.log('THERAPY TYPE MATCH:', link.href);
+          link.style.color = '#7e679b';
+          link.style.fontWeight = 'bold';
+          link.parentElement.classList.add('current-menu-item');
         }
       });
     }
   }
-  
-  // Log active navigation items
-  console.log('Active navigation items:', document.querySelectorAll('[data-nav-active="true"]').length);
 } 
