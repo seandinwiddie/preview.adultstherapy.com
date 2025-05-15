@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
   // Add active navigation markers using data attributes
   addActiveNavigationMarkers();
   
+  // Special case for therapy pages - ensure parent menu is highlighted
+  highlightTherapyParentMenu();
+  
   // Enhanced mobile menu behavior
   setupMobileNavigation();
   
@@ -374,6 +377,71 @@ function addActiveNavigationMarkers() {
           link.parentElement.classList.add('current-menu-item');
         }
       });
+    }
+  }
+}
+
+/**
+ * Special function to ensure the Therapy parent menu item is highlighted
+ * when viewing a therapy subpage
+ */
+function highlightTherapyParentMenu() {
+  const currentPath = window.location.pathname;
+  
+  // Check if we're on a therapy page
+  if (currentPath.includes('/therapy/')) {
+    console.log('On therapy page, highlighting parent menu');
+    
+    // Find the main Therapy menu item directly by its text content
+    document.querySelectorAll('.wp-block-navigation-item').forEach(item => {
+      const link = item.querySelector('a');
+      if (link && link.textContent.trim() === 'Therapy') {
+        console.log('Found Therapy menu item:', link);
+        
+        // Apply direct styling
+        link.style.color = '#7e679b';
+        link.style.fontWeight = 'bold';
+        link.style.borderBottom = '2px solid #7e679b';
+        
+        // Also add the current-menu-parent class
+        item.classList.add('current-menu-parent');
+        
+        // If this is a dropdown toggle, style it directly
+        const toggleButton = item.querySelector('.wp-block-navigation-submenu__toggle');
+        if (toggleButton) {
+          toggleButton.style.color = '#7e679b';
+        }
+      }
+    });
+    
+    // Also check for exact therapy submenu match
+    const therapyType = currentPath.split('/therapy/')[1]?.split('/')[0];
+    if (therapyType) {
+      // Map of therapy types to their display names
+      const therapyNames = {
+        'cbt': 'Cognitive Behavioral Therapy',
+        'dbt': 'Dialectical Behavior Therapy',
+        'gottman': 'Gottman\'s Couple Therapy',
+        'military': 'Military',
+        'mindfulness': 'Mindfulness',
+        'talk-therapy': 'Talk Therapy'
+      };
+      
+      const targetName = therapyNames[therapyType];
+      if (targetName) {
+        // Find submenu item by name
+        document.querySelectorAll('.wp-block-navigation__submenu-container .wp-block-navigation-item').forEach(item => {
+          const link = item.querySelector('a');
+          if (link && link.textContent.trim() === targetName) {
+            console.log('Found therapy submenu item:', link);
+            
+            // Style it directly
+            link.style.color = '#7e679b';
+            link.style.fontWeight = 'bold';
+            item.classList.add('current-menu-item');
+          }
+        });
+      }
     }
   }
 } 
