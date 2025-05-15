@@ -67,6 +67,8 @@
   position: relative;
 }
 
+/* Underline effect for main navigation items */
+.wp-block-navigation > .wp-block-navigation__container > .wp-block-navigation-item > .wp-block-navigation-item__content::after,
 .wp-block-navigation > .wp-block-navigation-item > .wp-block-navigation-item__content::after {
   content: "";
   position: absolute;
@@ -78,25 +80,50 @@
   transition: width var(--transition-speed) ease;
 }
 
-/* Styles for the current top-level navigation item */
-.wp-block-navigation > .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content {
-  color: var(--primary-purple) !important; /* Make text purple */
-  font-weight: bold; /* Make text bold */
-}
-
+/* Active and hover states for navigation items */
+.wp-block-navigation > .wp-block-navigation__container > .wp-block-navigation-item:hover > .wp-block-navigation-item__content::after,
+.wp-block-navigation > .wp-block-navigation__container > .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content::after,
 .wp-block-navigation > .wp-block-navigation-item:hover > .wp-block-navigation-item__content::after,
 .wp-block-navigation > .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content::after {
   width: 100%;
 }
 
-/* Styles for a parent navigation item when a sub-item is current */
-.wp-block-navigation > .wp-block-navigation-item.current-menu-parent > .wp-block-navigation-item__content {
-  color: var(--primary-purple) !important; /* Make text purple, slightly less prominent than current-menu-item if needed */
-  /* Consider a slightly different style if more distinction is needed, e.g., a lighter shade or just bold */
+/* Styles for the current navigation item */
+.wp-block-navigation .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content,
+.wp-block-navigation .current-menu-item > a,
+.wp-block-navigation__container > .current-menu-item > a {
+  color: var(--primary-purple) !important;
+  font-weight: bold;
 }
 
-/* Styles for the current item within a submenu */
-.wp-block-navigation__submenu-container .wp-block-navigation-item.current-menu-item > a > .wp-block-navigation-item__label {
+/* Styles for parent items with active children */
+.wp-block-navigation .wp-block-navigation-item.current-menu-parent > .wp-block-navigation-item__content,
+.wp-block-navigation .current-menu-parent > a,
+.wp-block-navigation__container > .current-menu-parent > a {
+  color: var(--primary-purple) !important;
+}
+
+/* Explicitly target Education, About and other main nav items */
+.wp-block-navigation a[href*="/education/"]:not(.wp-block-navigation__submenu-container a),
+.wp-block-navigation a[href*="/about/"]:not(.wp-block-navigation__submenu-container a),
+.wp-block-navigation a[href*="/skills/"]:not(.wp-block-navigation__submenu-container a),
+.wp-block-navigation a[href*="/therapy/"]:not(.wp-block-navigation__submenu-container a) {
+  position: relative;
+}
+
+/* Match specific URLs when on those pages */
+body[class*="page-education"] .wp-block-navigation a[href*="/education/"],
+body[class*="page-about"] .wp-block-navigation a[href*="/about/"],
+body[class*="page-skills"] .wp-block-navigation a[href*="/skills/"],
+body[class*="page-therapy"] .wp-block-navigation a[href*="/therapy/"] {
+  color: var(--primary-purple) !important;
+  font-weight: bold;
+}
+
+/* Style for current page in submenu */
+.wp-block-navigation__submenu-container .wp-block-navigation-item.current-menu-item > a,
+.wp-block-navigation__submenu-container .current-menu-item > a {
+  background-color: rgba(126, 103, 155, 0.1);
   color: var(--primary-purple) !important;
   font-weight: bold;
 }
