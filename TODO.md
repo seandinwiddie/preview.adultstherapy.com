@@ -194,7 +194,7 @@ Pages:
 34. [ ] Make dropdown menus more visually distinctive with subtle animations
   1. [x] create a style.css
   2. [x] create a script.js
-  3. [ ] create a link tag and script tag in the head section of all pages
+  3. [x] create a link tag and script tag in the head section of all pages
     Pages:
     1. [x] index.html (Adults and Couples Therapy of Oregon)
     2. [x] about/index.html (About)
@@ -209,7 +209,7 @@ Pages:
     11. [x] therapy/gottman/index.html (Gottman's Couple Therapy)
     12. [x] therapy/military/index.html (Military)
     13. [x] therapy/mindfulness/index.html (Mindfulness)
-    14. [ ] therapy/talk-therapy/index.html (Talk Therapy)
+    14. [x] therapy/talk-therapy/index.html (Talk Therapy)
 35. [ ] Add visual indicators for current page in navigation
 36. [ ] Consider implementing a sticky header on scroll
 
