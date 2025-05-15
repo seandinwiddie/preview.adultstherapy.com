@@ -192,24 +192,24 @@ Pages:
 
 ### Navigation Enhancement
 34. [ ] Make dropdown menus more visually distinctive with subtle animations
-  1. [ ] create a style.css
-  2. [ ] create a script.js
+  1. [x] create a style.css
+  2. [x] create a script.js
   3. [ ] create a link tag and script tag in the head section of all pages
     Pages:
     1. [x] index.html (Adults and Couples Therapy of Oregon)
-    2. [x] about/index.html (About)
-    3. [x] education/index.html (Education)
-    4. [x] privacy/index.html (Privacy)
-    5. [x] sitemap/index.html (Sitemap)
-    6. [x] skills/index.html (Skills)
-    7. [x] terms/index.html (Terms)
-    8. [x] therapy/index.html (Therapy)
-    9. [x] therapy/cbt/index.html (Cognitive Behavioral Therapy)
-    10. [x] therapy/dbt/index.html (Dialectical Behavior Therapy)
-    11. [x] therapy/gottman/index.html (Gottman's Couple Therapy)
-    12. [x] therapy/military/index.html (Military)
-    13. [x] therapy/mindfulness/index.html (Mindfulness)
-    14. [x] therapy/talk-therapy/index.html (Talk Therapy)
+    2. [ ] about/index.html (About)
+    3. [ ] education/index.html (Education)
+    4. [ ] privacy/index.html (Privacy)
+    5. [ ] sitemap/index.html (Sitemap)
+    6. [ ] skills/index.html (Skills)
+    7. [ ] terms/index.html (Terms)
+    8. [ ] therapy/index.html (Therapy)
+    9. [ ] therapy/cbt/index.html (Cognitive Behavioral Therapy)
+    10. [ ] therapy/dbt/index.html (Dialectical Behavior Therapy)
+    11. [ ] therapy/gottman/index.html (Gottman's Couple Therapy)
+    12. [ ] therapy/military/index.html (Military)
+    13. [ ] therapy/mindfulness/index.html (Mindfulness)
+    14. [ ] therapy/talk-therapy/index.html (Talk Therapy)
 35. [ ] Add visual indicators for current page in navigation
 36. [ ] Consider implementing a sticky header on scroll
 
