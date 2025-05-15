@@ -199,7 +199,7 @@ Pages:
     1. [x] index.html (Adults and Couples Therapy of Oregon)
     2. [x] about/index.html (About)
     3. [x] education/index.html (Education)
-    4. [ ] privacy/index.html (Privacy)
+    4. [x] privacy/index.html (Privacy)
     5. [ ] sitemap/index.html (Sitemap)
     6. [ ] skills/index.html (Skills)
     7. [ ] terms/index.html (Terms)
