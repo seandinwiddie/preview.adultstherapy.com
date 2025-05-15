@@ -204,7 +204,7 @@ Pages:
     6. [x] skills/index.html (Skills)
     7. [x] terms/index.html (Terms)
     8. [x] therapy/index.html (Therapy)
-    9. [ ] therapy/cbt/index.html (Cognitive Behavioral Therapy)
+    9. [x] therapy/cbt/index.html (Cognitive Behavioral Therapy)
     10. [ ] therapy/dbt/index.html (Dialectical Behavior Therapy)
     11. [ ] therapy/gottman/index.html (Gottman's Couple Therapy)
     12. [ ] therapy/military/index.html (Military)
