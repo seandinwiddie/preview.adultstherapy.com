@@ -197,7 +197,7 @@ Pages:
   3. [ ] create a link tag and script tag in the head section of all pages
     Pages:
     1. [x] index.html (Adults and Couples Therapy of Oregon)
-    2. [ ] about/index.html (About)
+    2. [x] about/index.html (About)
     3. [ ] education/index.html (Education)
     4. [ ] privacy/index.html (Privacy)
     5. [ ] sitemap/index.html (Sitemap)
