@@ -208,7 +208,7 @@ Pages:
     10. [x] therapy/dbt/index.html (Dialectical Behavior Therapy)
     11. [x] therapy/gottman/index.html (Gottman's Couple Therapy)
     12. [x] therapy/military/index.html (Military)
-    13. [ ] therapy/mindfulness/index.html (Mindfulness)
+    13. [x] therapy/mindfulness/index.html (Mindfulness)
     14. [ ] therapy/talk-therapy/index.html (Talk Therapy)
 35. [ ] Add visual indicators for current page in navigation
 36. [ ] Consider implementing a sticky header on scroll
