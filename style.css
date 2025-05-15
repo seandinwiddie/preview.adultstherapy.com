@@ -78,9 +78,27 @@
   transition: width var(--transition-speed) ease;
 }
 
+/* Styles for the current top-level navigation item */
+.wp-block-navigation > .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content {
+  color: var(--primary-purple) !important; /* Make text purple */
+  font-weight: bold; /* Make text bold */
+}
+
 .wp-block-navigation > .wp-block-navigation-item:hover > .wp-block-navigation-item__content::after,
 .wp-block-navigation > .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content::after {
   width: 100%;
+}
+
+/* Styles for a parent navigation item when a sub-item is current */
+.wp-block-navigation > .wp-block-navigation-item.current-menu-parent > .wp-block-navigation-item__content {
+  color: var(--primary-purple) !important; /* Make text purple, slightly less prominent than current-menu-item if needed */
+  /* Consider a slightly different style if more distinction is needed, e.g., a lighter shade or just bold */
+}
+
+/* Styles for the current item within a submenu */
+.wp-block-navigation__submenu-container .wp-block-navigation-item.current-menu-item > a > .wp-block-navigation-item__label {
+  color: var(--primary-purple) !important;
+  font-weight: bold;
 }
 
 /* Mobile navigation enhancements */
