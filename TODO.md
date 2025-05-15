@@ -207,7 +207,7 @@ Pages:
     9. [x] therapy/cbt/index.html (Cognitive Behavioral Therapy)
     10. [x] therapy/dbt/index.html (Dialectical Behavior Therapy)
     11. [x] therapy/gottman/index.html (Gottman's Couple Therapy)
-    12. [ ] therapy/military/index.html (Military)
+    12. [x] therapy/military/index.html (Military)
     13. [ ] therapy/mindfulness/index.html (Mindfulness)
     14. [ ] therapy/talk-therapy/index.html (Talk Therapy)
 35. [ ] Add visual indicators for current page in navigation
