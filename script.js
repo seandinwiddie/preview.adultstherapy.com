@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
   // Add inline CSS for navigation highlighting
   addInlineNavigationStyles();
 
+  // Highlight all main navigation items based on current URL
+  highlightMainNavigation();
+  
   // Add current-menu-item class to navigation items based on current URL
   highlightCurrentPage();
   
@@ -62,6 +65,74 @@ function addInlineNavigationStyles() {
   `;
   
   document.head.appendChild(styleTag);
+}
+
+/**
+ * Generic function to highlight main navigation items based on current URL
+ */
+function highlightMainNavigation() {
+  const currentPath = window.location.pathname;
+  console.log('Highlighting main navigation for path:', currentPath);
+  
+  // Map of URL paths to menu item text
+  const pathToMenuMap = {
+    '/': 'Home',
+    '/skills/': 'Skills',
+    '/education/': 'Education',
+    '/about/': 'About',
+    '/therapy/': 'Therapy'
+  };
+  
+  // Find which section we're in by checking URL
+  let activeSection = '';
+  Object.keys(pathToMenuMap).forEach(path => {
+    if (currentPath === path || currentPath.startsWith(path)) {
+      activeSection = pathToMenuMap[path];
+    }
+  });
+  
+  if (!activeSection) return;
+  
+  console.log('Active section determined to be:', activeSection);
+  
+  // Find and style the main navigation items
+  document.querySelectorAll('.wp-block-navigation-item').forEach(item => {
+    // Get the link text, trimming any whitespace
+    const link = item.querySelector('a');
+    if (!link) return;
+    
+    const linkText = link.textContent.trim();
+    
+    // If this is the active section, highlight it
+    if (linkText === activeSection) {
+      console.log('Highlighting main nav item:', linkText);
+      
+      // Apply direct styling
+      link.style.color = '#7e679b';
+      link.style.fontWeight = 'bold';
+      
+      // Add a bottom border for extra visibility
+      if (!link.closest('.wp-block-navigation__submenu-container')) {
+        link.style.borderBottom = '2px solid #7e679b';
+        link.style.paddingBottom = '3px';
+      }
+      
+      // Add the current-menu-item class
+      item.classList.add('current-menu-item');
+      
+      // If this is a dropdown toggle, style it directly
+      const toggleButton = item.querySelector('.wp-block-navigation-submenu__toggle');
+      if (toggleButton) {
+        toggleButton.style.color = '#7e679b';
+      }
+    }
+  });
+  
+  // For debugging, log all main navigation items
+  console.log('All main navigation items:');
+  document.querySelectorAll('.wp-block-navigation-item > a').forEach(link => {
+    console.log('  -', link.textContent.trim());
+  });
 }
 
 /**
