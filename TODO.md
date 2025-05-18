@@ -211,7 +211,7 @@ Pages:
     13. [x] therapy/mindfulness/index.html (Mindfulness)
     14. [x] therapy/talk-therapy/index.html (Talk Therapy)
 35. [ ] Add visual indicators for current page in navigation
-36. [ ] Consider implementing a sticky header on scroll
+36. [ ] Consider implementing a sticky header on scroll - save for later
 
 ### Color and Typography
 37. [ ] Create more cohesive application of purple (#7e679b) and blue (#99b4df) color scheme
