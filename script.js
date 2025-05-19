@@ -190,14 +190,20 @@ const highlightNavigation = (doc) => {
  * @param {Element} link - The <a> link element to mark as active
  */
 const markActive = (link) => {
-  // Only set white text and bold weight
   link.classList.add('nav-active');
-  link.style.setProperty('color', '#ffffff', 'important');
+  // Determine if this link is within a submenu
+  const isSubmenuItem = !!link.closest('.wp-block-navigation__submenu-container');
+  // Choose color: purple for submenu items, white for top-level
+  const activeColor = isSubmenuItem ? '#7e679b' : '#ffffff';
+  
+  // Apply inline styles
+  link.style.setProperty('color', activeColor, 'important');
   link.style.setProperty('font-weight', 'bold', 'important');
 
+  // Also update inner span if present
   const span = link.querySelector('span.wp-block-navigation-item__label');
   if (span) {
-    span.style.setProperty('color', '#ffffff', 'important');
+    span.style.setProperty('color', activeColor, 'important');
     span.style.setProperty('font-weight', 'bold', 'important');
   }
 };
