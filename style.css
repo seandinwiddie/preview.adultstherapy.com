@@ -14,6 +14,23 @@
   --transition-speed: 0.3s;
 }
 
+/* General active navigation link styles (replaces JS injected styles) */
+.wp-block-navigation a.nav-active span.wp-block-navigation-item__label,
+.wp-block-navigation a.nav-active {
+  color: #ffffff !important;   /* White text on purple background */
+  font-weight: bold !important;
+}
+
+.wp-block-navigation a.nav-active-border {
+  border-bottom: 2px solid #ffffff !important; /* White underline */
+  padding-bottom: 3px !important;
+}
+
+/* Submenu active item */
+.wp-block-navigation__submenu-container a.nav-active {
+  background-color: rgba(126, 103, 155, 0.1) !important; /* Light purple background */
+}
+
 /* Navigation dropdown enhancements */
 .wp-block-navigation-submenu .wp-block-navigation__submenu-container {
   opacity: 0;
