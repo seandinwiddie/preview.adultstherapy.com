@@ -64,6 +64,10 @@ Pages:
 19. [x] Enhance with specific information about trauma-informed approaches for veterans
 20. [x] Include relevant keywords related to military personnel and trauma
 
+### EFT Content Integration
+- [x] Add Emotional Freedom Technique (EFT) certification and content across the site.
+  - *Details: Updated homepage, about, therapy, and skills pages. Created a new dedicated page at `therapy/eft/index.html`. Updated sitewide header and structured data.*
+
 ## Priority 3: Technical SEO Improvements
 
 ### Metadata
@@ -210,18 +214,23 @@ Pages:
     12. [x] therapy/military/index.html (Military)
     13. [x] therapy/mindfulness/index.html (Mindfulness)
     14. [x] therapy/talk-therapy/index.html (Talk Therapy)
-35. [ ] Add visual indicators for current page in navigation
+35. [x] Add visual indicators for current page in navigation
 36. [ ] Consider implementing a sticky header on scroll - save for later
 
 ### Color and Typography
-37. [ ] Create more cohesive application of purple (#7e679b) and blue (#99b4df) color scheme
-38. [ ] Add complementary accent color for calls-to-action
-39. [ ] Ensure sufficient color contrast for accessibility
-40. [ ] Increase line spacing in paragraph text
-41. [ ] Create more dramatic contrast between heading and body text sizes
+37. [ ] Create more cohesive application of purple (#7e679b) and blue (#99b4df) color scheme - SKIP
+38. [ ] Add complementary accent color for calls-to-action - SKIP for now
+39. [ ] Ensure sufficient color contrast for accessibility - SKIP
+40. [ ] Increase line spacing in paragraph text - SKIP
+41. [ ] Create more dramatic contrast between heading and body text sizes - SKIP
 
 ### Visual Elements
-42. [ ] Add appropriate therapy-related imagery throughout the site
+42. [ ] Add appropriate therapy-related imagery throughout the site; use Unsplash images: example: https://images.unsplash.com/photo-1508962914676-134849a727f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80
+
+```
+<img src="https://images.unsplash.com/photo-1508962914676-134849a727f0?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1500&amp;q=80" alt="Saving time" class="feature-image">
+```
+
 43. [ ] Implement subtle background patterns in header/footer areas
 44. [ ] Add professional headshot with consistent styling across pages
 45. [ ] Create visual icons for different therapy modalities
