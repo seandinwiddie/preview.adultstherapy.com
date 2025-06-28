@@ -48,6 +48,20 @@ Pages:
 11. [ ] Add anonymized case studies demonstrating successful therapy outcomes - SKIP THIS FOR NOW
 12. [x] Include more location-specific information
 
+## Priority 1.5: Navigation, Templating, and Link Fixes
+
+### Navigation & Page Content
+- [ ] Add "Emotional Freedom Technique" to the main navigation menu under the "Therapy" dropdown on all pages.
+
+### Link Behavior - SKIP FOR NOW
+- [ ] Ensure all internal links on the preview site point to preview URLs, not production. Review and fix the existing script or implement a more robust solution.
+
+### Code Refactoring & Templating - SKIP FOR NOW
+- [ ] Convert header (including navigation and breadcrumbs) and footer into JavaScript-loaded templates.
+  - [ ] Create `templates/header.html` and `templates/footer.html`.
+  - [ ] Write a script (`template-loader.js`) to fetch and inject templates into all pages.
+  - [ ] Update all pages to remove hardcoded header/footer and use the new script.
+
 ## Priority 2: Content Improvements
 
 ### Therapy Pages
