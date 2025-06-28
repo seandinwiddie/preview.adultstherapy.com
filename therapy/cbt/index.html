@@ -3,15 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+	<link rel="stylesheet" href="../../style.css">
+	<script src="../../script.js" defer></script>
+	<meta name="description" content="Expert cognitive behavioral therapy in Oregon helps transform negative thought patterns into positive ones. Evidence-based anxiety and depression treatment for lasting change.">
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px; }</style>
+
 	<!-- This site is optimized with the Yoast SEO plugin v24.4 - https://yoast.com/wordpress/plugins/seo/ -->
 	<link rel="canonical" href="https://adultstherapy.com/therapy/cbt/">
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Cognitive Behavioral Therapy">
-	<meta property="og:description" content="Cognitive Behavioral Therapy (CBT) Cognitive Behavioral Therapy (CBT) is a form of psychological therapy that helps improve mental well-being. CBT is a type of therapy that helps you identify and change negative thought patterns and behaviors that affect your emotions. It&#8217;s a goal-oriented approach that focuses on the present moment, rather than dwelling on the [&hellip;]">
+	<meta property="og:description" content="Cognitive Behavioral Therapy (CBT) Cognitive Behavioral Therapy (CBT) is a form of psychological therapy that helps improve mental well-being. CBT is a type of therapy that helps you identify and change negative thought patterns and behaviors that affect your emotions. It&#8217;s a goal-oriented approach that focuses on the present moment, rather than dwelling on the past.">
 	<meta property="og:url" content="https://adultstherapy.com/therapy/cbt/">
 	<meta property="og:site_name" content="Adults and Couples Therapy of Oregon">
 	<meta property="article:modified_time" content="2024-09-17T23:06:08+00:00">
@@ -130,13 +133,155 @@
 	            "image": {
 	                "@id": "https://adultstherapy.com/#/schema/logo/image/"
 	            }
+	        },
+	        {
+	            "@type": "Service",
+	            "@id": "https://adultstherapy.com/therapy/cbt/#service",
+	            "name": "Cognitive Behavioral Therapy (CBT)",
+	            "description": "Evidence-based therapy that helps identify and change negative thought patterns and behaviors affecting emotions and mental well-being.",
+	            "provider": {
+	                "@id": "https://adultstherapy.com/#organization"
+	            },
+	            "serviceType": "Mental Health Therapy",
+	            "areaServed": {
+	                "@type": "State",
+	                "name": "Oregon"
+	            },
+	            "audience": {
+	                "@type": "Audience",
+	                "audienceType": "Adults"
+	            },
+	            "availableChannel": {
+	                "@type": "ServiceChannel",
+	                "serviceUrl": "https://adultstherapy.com/therapy/cbt/",
+	                "servicePhone": "+15413638817",
+	                "serviceLocation": {
+	                    "@type": "Place",
+	                    "name": "Virtual/Telehealth"
+	                }
+	            },
+	            "offers": {
+	                "@type": "Offer",
+	                "category": "Mental Health Services",
+	                "eligibleRegion": {
+	                    "@type": "State",
+	                    "name": "Oregon"
+	                },
+	                "offeredBy": {
+	                    "@type": "Person",
+	                    "@id": "https://adultstherapy.com/#person"
+	                }
+	            },
+	            "termsOfService": "https://adultstherapy.com/terms/",
+	            "serviceOutput": {
+	                "@type": "Thing",
+	                "name": "Improved Mental Health",
+	                "description": "Reduced symptoms of anxiety, depression, and other mental health conditions through cognitive restructuring and behavioral change."
+	            }
+	        },
+	        {
+	            "@type": "MedicalTherapy",
+	            "@id": "https://adultstherapy.com/therapy/cbt/#medicalTherapy",
+	            "name": "Cognitive Behavioral Therapy",
+	            "description": "A psychological treatment approach that helps patients identify and change negative thought patterns and behaviors affecting their emotions.",
+	            "medicineSystem": "Western Medicine",
+	            "study": [
+	                {
+	                    "@type": "MedicalStudy",
+	                    "headline": "Effectiveness for Depression",
+	                    "description": "Evidence shows CBT is highly effective for treating depression, with success rates comparable to medication."
+	                },
+	                {
+	                    "@type": "MedicalStudy",
+	                    "headline": "Effectiveness for Anxiety",
+	                    "description": "Research demonstrates CBT's effectiveness in reducing symptoms of various anxiety disorders including GAD, social anxiety, and panic disorder."
+	                },
+	                {
+	                    "@type": "MedicalStudy",
+	                    "headline": "Long-term Results",
+	                    "description": "Studies show CBT provides lasting results with lower relapse rates compared to medication-only treatments."
+	                }
+	            ],
+	            "guideline": {
+	                "@type": "MedicalGuideline",
+	                "evidenceLevel": "A - Strong",
+	                "evidenceOrigin": "Multiple randomized controlled trials",
+	                "guidelineSubject": {
+	                    "@type": "MedicalEntity",
+	                    "name": "Mental Health Conditions"
+	                }
+	            },
+	            "howPerformed": "CBT is typically delivered in structured weekly sessions focusing on identifying cognitive distortions, challenging negative thoughts, and developing healthier behavioral patterns.",
+	            "procedure": [
+	                "Initial assessment and goal setting",
+	                "Identifying negative thought patterns",
+	                "Learning cognitive restructuring techniques",
+	                "Practicing behavioral activation",
+	                "Developing coping strategies",
+	                "Gradual exposure to feared situations (when appropriate)",
+	                "Relapse prevention planning"
+	            ],
+	            "normalRange": {
+	                "@type": "MedicalEnumeration",
+	                "name": "Treatment Duration",
+	                "value": "Typically 8-20 weekly sessions, though duration varies based on individual needs"
+	            },
+	            "preparation": "No special preparation required; clients are asked to come ready to engage in collaborative discussion about their thoughts and feelings.",
+	            "followup": "Progress is continuously monitored during sessions, with many clients benefiting from occasional 'booster' sessions after completing the main course of treatment.",
+	            "seriousAdverseOutcome": "None known. CBT is considered a low-risk treatment with very few contraindications.",
+	            "indication": {
+	                "@type": "MedicalIndication",
+	                "name": "Conditions Treated by CBT",
+	                "description": "CBT is indicated for a wide range of mental health conditions including depression, anxiety disorders, PTSD, OCD, phobias, sleep disorders, and more."
+	            }
 	        }
 	    ]
 	}</script>
 	<!-- / Yoast SEO plugin. -->
 
+<style>
+/* Eliminate gap between header and breadcrumbs */
+header.wp-block-template-part {
+  margin-bottom: 0;
+}
+.wp-site-blocks > header.wp-block-template-part + nav {
+  margin-top: 0;
+}
+.breadcrumbs {
+  list-style: none;
+  padding: 10px 16px; /* Horizontal padding */
+  margin: 0; /* Remove vertical margin to fix gap */
+  margin-top: -1px; /* Stick to header */
+  font-size: 1em; /* Normal text size */
+  background-color: #f8f9fa; /* Light gray background */
+  border-bottom: 1px solid #dee2e6; /* Subtle bottom border */
+  position: relative; /* Enable positioning context */
+  top: -1px; /* Pull up slightly */
+}
+.breadcrumbs-item {
+  display: inline-block; /* Keep items on one line */
+}
+.breadcrumbs-item::after {
+  content: ">"; /* Separator */
+  margin: 0 8px; /* Space around separator */
+  color: #6c757d; /* Separator color (gray) */
+}
+.breadcrumbs-item:last-child::after {
+  content: ""; /* No separator after the last item */
+}
+.breadcrumbs-item a {
+  text-decoration: none;
+  color: #7e679b; /* Changed from blue to purple to match site theme */
+}
+.breadcrumbs-item a:hover {
+  text-decoration: underline; /* Hover effect for links */
+}
+.breadcrumbs-item.current-item { /* For the current page text */
+  color: #495057; /* Current page text color (dark gray) */
+}
+</style>
 
-<title>Cognitive Behavioral Therapy</title>
+<title>Cognitive Behavioral Therapy (CBT) in Oregon | Effective CBT Techniques</title>
 <link rel="alternate" type="application/rss+xml" title="Adults and Couples Therapy of Oregon &raquo; Feed" href="https://adultstherapy.com/feed/">
 <link rel="alternate" type="application/rss+xml" title="Adults and Couples Therapy of Oregon &raquo; Comments Feed" href="https://adultstherapy.com/comments/feed/">
 <script>
@@ -222,6 +367,17 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <link rel="icon" href="https://adultstherapy.com/wp-content/uploads/2022/10/cropped-Adults_and_Couples_Therapy_of_Oregon-1-192x192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="https://adultstherapy.com/wp-content/uploads/2022/10/cropped-Adults_and_Couples_Therapy_of_Oregon-1-180x180.png">
 <meta name="msapplication-TileImage" content="https://adultstherapy.com/wp-content/uploads/2022/10/cropped-Adults_and_Couples_Therapy_of_Oregon-1-270x270.png">
+<script>
+if (window.location.hostname === 'preview.adultstherapy.com') {
+  document.addEventListener('click', function(e) {
+    const link = e.target.closest('a');
+    if (link && link.href.includes('adultstherapy.com')) {
+      e.preventDefault();
+      window.location.href = link.href.replace('adultstherapy.com', 'preview.adultstherapy.com');
+    }
+  });
+}
+</script>
 </head>
 
 <body class="page-template-default page page-id-180 page-child parent-pageid-69 wp-custom-logo wp-embed-responsive">
@@ -229,8 +385,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <div class="wp-site-blocks">
 <header class="wp-block-template-part">
 <div class="wp-block-group has-background is-layout-flow wp-block-group-is-layout-flow" style="background-color:#7e679b;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
-<h1 class="has-text-align-center wp-elements-f92b216c9965c82556b1618200de125f wp-block-site-title has-text-color has-black-color has-x-large-font-size has-alike-font-family"><a href="https://adultstherapy.com/" target="_self" rel="home">Adults and Couples Therapy of Oregon</a></h1>
+<h1 class="has-text-align-center wp-elements-f92b216c9965c82556b1618200de125f wp-block-site-title has-text-color has-black-color has-x-large-font-size has-alike-font-family"><a href="https://adultstherapy.com/" target="_self" rel="home">Adults and Couples Therapy of Oregon: Evidence-Based</a></h1>
 
+<h4 class="has-text-align-center has-black-color has-text-color">Specialized treatment for depression, anxiety, and relationship issues with proven therapeutic approaches</h4>
 
 <h5 class="wp-block-heading has-text-align-center has-white-color has-text-color">Gottman Couples Therapy Level 2 Practitioner <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-black-color">•</mark> EMDR Level 2 <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-black-color">•</mark> Certified Clinical Trauma Professional (CCTP I)</h5>
 
@@ -253,6 +410,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <li class=" wp-block-navigation-item  menu-item menu-item-type-post_type menu-item-object-page wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://adultstherapy.com/therapy/dbt/" title=""><span class="wp-block-navigation-item__label">Dialectical Behavior Therapy</span></a></li>
 <li class=" wp-block-navigation-item  menu-item menu-item-type-post_type menu-item-object-page wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://adultstherapy.com/therapy/gottman/" title=""><span class="wp-block-navigation-item__label">Gottman&#8217;s Couple Therapy</span></a></li>
 <li class=" wp-block-navigation-item  menu-item menu-item-type-post_type menu-item-object-page wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://adultstherapy.com/therapy/mindfulness/" title=""><span class="wp-block-navigation-item__label">Mindfulness</span></a></li>
+<li class=" wp-block-navigation-item  menu-item menu-item-type-post_type menu-item-object-page wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://adultstherapy.com/therapy/eft/" title=""><span class="wp-block-navigation-item__label">Emotional Freedom Technique</span></a></li>
 <li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="https://adultstherapy.com/therapy/military/"><span class="wp-block-navigation-item__label">Military</span></a></li>
 </ul>
 </li>
@@ -266,6 +424,14 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 				</div></nav>
 </div>
 </header>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumbs">
+    <li class="breadcrumbs-item"><a href="/">Home</a></li>
+    <li class="breadcrumbs-item"><a href="/therapy/">Therapy</a></li>
+    <li class="breadcrumbs-item current-item">Cognitive Behavioral Therapy</li>
+  </ol>
+</nav>
 
 
 <main class="wp-block-query is-layout-flow wp-block-query-is-layout-flow">
@@ -284,19 +450,152 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <h1 style="text-align: center;"><span style="font-weight: 400;">Cognitive Behavioral Therapy (CBT)</span></h1>
 <p><span style="font-weight: 400;">Cognitive Behavioral Therapy (CBT) is a form of psychological therapy that helps improve mental well-being.</span></p>
 <p><span style="font-weight: 400;">CBT is a type of therapy that helps you identify and change negative thought patterns and behaviors that affect your emotions. It&#8217;s a goal-oriented approach that focuses on the present moment, rather than dwelling on the past.</span></p>
+
+<h2 style="text-align: center;"><span style="font-weight: 400;">What is Cognitive Behavioral Therapy?</span></h2>
+<p><span style="font-weight: 400;">Cognitive Behavioral Therapy (CBT) is a structured, evidence-based psychotherapy approach that focuses on identifying and changing unhelpful thought patterns and behaviors that contribute to emotional distress. Unlike some other therapies, CBT is:</span></p>
+<ul>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Present-focused:</strong> While your past experiences are acknowledged, CBT primarily focuses on current challenges and developing practical solutions.</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Goal-oriented:</strong> You and your therapist will work together to set specific, achievable goals for therapy.</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Collaborative:</strong> CBT is a partnership between you and your therapist, with both actively participating in the therapeutic process.</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Time-limited:</strong> CBT typically involves 12-20 sessions, making it a relatively short-term treatment approach.</span></li>
+</ul>
+
+<h2 style="text-align: center;"><span style="font-weight: 400;">The Science Behind CBT</span></h2>
+<p><span style="font-weight: 400;">CBT is one of the most extensively researched therapy approaches, with decades of scientific studies supporting its effectiveness. Research consistently shows that CBT is beneficial for a wide range of mental health conditions, including:</span></p>
+<ul>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Depression</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Anxiety disorders (including generalized anxiety, social anxiety, and panic disorder)</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Post-traumatic stress disorder (PTSD)</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Obsessive-compulsive disorder (OCD)</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Insomnia and sleep difficulties</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Substance use concerns</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Eating disorders</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Stress management</span></li>
+</ul>
+
+<p><span style="font-weight: 400;">Multiple meta-analyses (studies that combine results from many individual studies) have demonstrated that CBT produces significant improvements in symptoms and quality of life, often comparable to or exceeding the effects of medication for certain conditions.</span></p>
+
 <h2 style="text-align: center;"><span style="font-weight: 400;">How Does CBT Work? Promoting Positive Living</span></h2>
 <p><span style="font-weight: 400;">CBT encourages positive thinking and helps you develop healthier mental habits.</span></p>
 <p><span style="font-weight: 400;">CBT helps you recognize and challenge negative thoughts and beliefs that contribute to emotional distress. You&#8217;ll work with a therapist to develop coping strategies and behavior-change techniques to manage your symptoms and improve your overall well-being.</span></p>
+
+<h3 style="text-align: left;"><span style="font-weight: 400;">The CBT Triangle: Thoughts, Feelings, and Behaviors</span></h3>
+<p><span style="font-weight: 400;">At the core of CBT is the understanding that our thoughts, feelings, and behaviors are interconnected. This relationship is often represented as a triangle:</span></p>
+<ul>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Thoughts:</strong> How we interpret situations and what we say to ourselves</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Feelings:</strong> Our emotional responses to situations</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Behaviors:</strong> Actions we take based on our thoughts and feelings</span></li>
+</ul>
+
+<p><span style="font-weight: 400;">When we experience distress, these three elements influence each other in a cycle that can either help or hinder our well-being. CBT helps break negative cycles by intervening at any point in this triangle. For those seeking a different but complementary approach, you might also be interested in <a href="/therapy/dbt/">Dialectical Behavior Therapy (DBT)</a>, which builds on the CBT foundation with additional focus on emotional regulation and mindfulness.</span></p>
+
+<h3 style="text-align: left;"><span style="font-weight: 400;">Key CBT Techniques</span></h3>
+<p><span style="font-weight: 400;">CBT employs various evidence-based techniques to help you develop healthier patterns:</span></p>
+
+<h4 style="text-align: left;"><span style="font-weight: 400;">1. Cognitive Restructuring</span></h4>
+<p><span style="font-weight: 400;">This technique helps you identify and challenge negative thought patterns, often called "cognitive distortions." Common distortions include:</span></p>
+<ul>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>All-or-nothing thinking:</strong> Seeing situations in black and white terms</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Catastrophizing:</strong> Expecting the worst possible outcome</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Mind reading:</strong> Assuming you know what others are thinking</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Emotional reasoning:</strong> "I feel it, therefore it must be true"</span></li>
+</ul>
+
+<h4 style="text-align: left;"><span style="font-weight: 400;">2. Behavioral Activation</span></h4>
+<p><span style="font-weight: 400;">This approach helps you engage in positive activities that improve your mood and energy. It's particularly effective for depression, where motivation and activity levels are often low.</span></p>
+
+<h4 style="text-align: left;"><span style="font-weight: 400;">3. Exposure Therapy</span></h4>
+<p><span style="font-weight: 400;">For anxiety-related conditions, gradually and safely facing feared situations helps reduce avoidance and build confidence. This is done in a controlled, supportive environment at a pace that feels manageable.</span></p>
+
+<h4 style="text-align: left;"><span style="font-weight: 400;">4. Problem-Solving Training</span></h4>
+<p><span style="font-weight: 400;">Learning to approach problems systematically can reduce feeling overwhelmed and improve your ability to handle challenges effectively.</span></p>
+
+<h4 style="text-align: left;"><span style="font-weight: 400;">5. Mindfulness Practices</span></h4>
+<p><span style="font-weight: 400;">Cultivating present-moment awareness without judgment helps break automatic negative thought patterns and build emotional regulation skills. Learn more about our approach to <a href="/therapy/mindfulness/">Mindfulness therapy</a> as both a standalone practice and a component of CBT.</span></p>
+
 <h2 style="text-align: center;"><span style="font-weight: 400;">Benefits of CBT: Tackling Difficulties</span></h2>
 <p><span style="font-weight: 400;">CBT also teaches strategies to manage challenges, helping you change unhelpful thought patterns and behaviors.</span></p>
-<p><span style="font-weight: 400;">CBT is a short-term, evidence-based approach that&#8217;s been proven effective in treating a range of mental health conditions, including anxiety, depression, and obsessive-compulsive disorder. It&#8217;s a collaborative process that empowers you to take control of your thoughts, emotions, and behaviors.</span></p>
+<p><span style="font-weight: 400;">CBT is a short-term, evidence-based approach that&#8217;s been proven effective in treating a range of mental health conditions, including anxiety, depression, and obsessive-compulsive disorder. It&#8217;s a collaborative process that empowers you to take control of your thoughts, emotions, and behaviors. For couples experiencing relationship difficulties, similar principles can be applied through <a href="/therapy/gottman/">Gottman Method Couples Therapy</a>, which helps partners recognize and change negative patterns in their interactions.</span></p>
+
+<h3 style="text-align: left;"><span style="font-weight: 400;">Long-Lasting Benefits</span></h3>
+<p><span style="font-weight: 400;">One of the greatest advantages of CBT is that it teaches skills you can use for a lifetime. Research shows that people who complete CBT maintain their improvements and often continue to make gains even after therapy ends. This is because:</span></p>
+<ul>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">You learn to become your own therapist, developing skills to identify and challenge negative thoughts</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">The focus is on practical skills that can be applied to new situations as they arise</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">CBT helps you develop a more realistic, balanced view of yourself, others, and the world</span></li>
+</ul>
+
 <h2 style="text-align: center;"><span style="font-weight: 400;">What to Expect from CBT: Transformative Aspects of CBT</span></h2>
 <p><span style="font-weight: 400;">Through CBT, you&#8217;ll recognize unhelpful thoughts that contribute to emotional distress and replace them with more rational, adaptive ones. It also involves learning coping strategies to manage symptoms and improve your mental well-being.</span></p>
-<p><span style="font-weight: 400;">CBT typically involves 12-20 sessions, and progress is tracked throughout the course of treatment to ensure improvement.. You&#8217;ll work with a therapist to identify specific goals and objectives, and develop a plan to achieve them.</span></p>
+<p><span style="font-weight: 400;">CBT typically involves 12-20 sessions, and progress is tracked throughout the course of treatment to ensure improvement. You&#8217;ll work with a therapist to identify specific goals and objectives, and develop a plan to achieve them.</span></p>
+
+<h3 style="text-align: left;"><span style="font-weight: 400;">Your First Session</span></h3>
+<p><span style="font-weight: 400;">Your initial session will typically involve:</span></p>
+<ul>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">A thorough assessment of your current concerns and history</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Setting clear, achievable goals for therapy</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">An introduction to the CBT approach and how it might help your specific situation</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Beginning to develop a collaborative therapeutic relationship</span></li>
+</ul>
+
+<p><span style="font-weight: 400;">Some clients may prefer to start with a less structured approach, such as <a href="/therapy/talk-therapy/">Talk Therapy</a>, and gradually incorporate CBT techniques as they become more comfortable with the therapeutic process.</span></p>
+
+<h3 style="text-align: left;"><span style="font-weight: 400;">Ongoing Sessions</span></h3>
+<p><span style="font-weight: 400;">Regular CBT sessions typically follow a structured format:</span></p>
+<ul>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Brief check-in about your week and mood</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Review of any "homework" or practice from the previous session</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Collaborative setting of an agenda for the current session</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Work on specific skills or issues</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Assignment of new practice activities</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Summary and feedback</span></li>
+</ul>
+
+<h3 style="text-align: left;"><span style="font-weight: 400;">Between-Session Practice</span></h3>
+<p><span style="font-weight: 400;">CBT emphasizes practicing new skills between sessions. This might include:</span></p>
+<ul>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Keeping thought records to identify patterns in your thinking</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Behavioral experiments to test the accuracy of beliefs</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Gradual exposure to feared situations</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Relaxation or mindfulness exercises</span></li>
+</ul>
+
 <h2 style="text-align: center;"><span style="font-weight: 400;">Is CBT Right for You? Structured for Success</span></h2>
 <p><span style="font-weight: 400;">CBT is offered individually, in couples, or in group settings, with clear goals set at the start.</span></p>
-<p><span style="font-weight: 400;">If you&#8217;re struggling with negative thought patterns, emotional distress, or behavioral issues, CBT may be a good fit for you. It&#8217;s a collaborative process that helps you develop the skills and strategies you need to manage your symptoms and improve your quality of life.</span></p>
-<p><span style="font-weight: 400;">Are you ready to experience the benefits of CBT?</span></p>
+<p><span style="font-weight: 400;">If you&#8217;re struggling with negative thought patterns, emotional distress, or behavioral issues, CBT may be a good fit for you. It&#8217;s a collaborative process that helps you develop the skills and strategies you need to manage your symptoms and improve your quality of life. We also offer specialized support for <a href="/therapy/military/">military personnel and veterans</a> who may be dealing with trauma, transition issues, or other unique challenges.</span></p>
+
+<h3 style="text-align: left;"><span style="font-weight: 400;">CBT May Be Particularly Helpful If You:</span></h3>
+<ul>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Prefer a structured, goal-oriented approach</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Are willing to actively participate in your healing process</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Want to develop practical skills for managing symptoms</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Are interested in understanding the connection between thoughts, feelings, and behaviors</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Prefer a therapy with strong scientific support</span></li>
+</ul>
+
+<h3 style="text-align: left;"><span style="font-weight: 400;">Common Myths About CBT</span></h3>
+<p><span style="font-weight: 400;">Let's address some misconceptions about CBT:</span></p>
+<ul>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Myth:</strong> CBT ignores emotions and only focuses on thoughts.<br><strong>Reality:</strong> CBT recognizes the importance of emotions and helps you understand how thoughts influence feelings.</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Myth:</strong> CBT dismisses the impact of past experiences.<br><strong>Reality:</strong> While CBT focuses on current challenges, it acknowledges how past experiences shape present patterns.</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Myth:</strong> CBT is just positive thinking.<br><strong>Reality:</strong> CBT promotes realistic thinking, not simply positive thinking. The goal is balanced perspective.</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Myth:</strong> CBT is too simplistic for complex problems.<br><strong>Reality:</strong> CBT has been adapted for a wide range of complex conditions and can be tailored to individual needs.</span></li>
+</ul>
+
+<h2 style="text-align: center;"><span style="font-weight: 400;">Our Approach to CBT</span></h2>
+<p><span style="font-weight: 400;">At Adults and Couples Therapy of Oregon, we offer evidence-based CBT that is:</span></p>
+<ul>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Personalized:</strong> We tailor CBT techniques to address your unique needs and goals</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Compassionate:</strong> We recognize that change can be challenging and provide supportive guidance</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Integrative:</strong> When beneficial, we may incorporate complementary approaches alongside CBT</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Strengths-based:</strong> We build on your existing capabilities while developing new skills</span></li>
+</ul>
+
+<p><span style="font-weight: 400;">Are you ready to experience the benefits of CBT? We also offer specialized support for <a href="/therapy/military/">military personnel and veterans</a> who may be dealing with trauma, transition issues, or other unique challenges.</span></p>
+
+<h2 style="text-align: center;"><span style="font-weight: 400;">Take the First Step Toward Change</span></h2>
+<p><span style="font-weight: 400;">If you're struggling with depression, anxiety, stress, or other challenges, evidence-based CBT can help you develop the skills to transform your thoughts, manage your emotions, and improve your quality of life.</span></p>
+<p><span style="font-weight: 400;">Contact us today to learn more about our CBT services and begin your journey toward positive change. We're here to support you every step of the way.</span></p>
 </div>
 </div>
 <p><!-- /vcwb/dynamicElementComment:fc5ca586 --></p>
@@ -364,24 +663,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<p class="has-text-align-center has-black-color has-text-color"><a href="https://www.apa.org/" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-black-color">American Psychological Association member</mark></a></p>
-</div>
-
-
-
-<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-medium"><a href="https://www.apa.org/" target="_blank" rel="noreferrer noopener"><img decoding="async" width="300" height="115" src="https://adultstherapy.com/wp-content/uploads/2023/08/APA-Logo-2019-Stacked-RGB-300x115.png" alt="" class="wp-image-494" srcset="https://adultstherapy.com/wp-content/uploads/2023/08/APA-Logo-2019-Stacked-RGB-300x115.png 300w, https://adultstherapy.com/wp-content/uploads/2023/08/APA-Logo-2019-Stacked-RGB-768x294.png 768w, https://adultstherapy.com/wp-content/uploads/2023/08/APA-Logo-2019-Stacked-RGB.png 991w" sizes="(max-width: 300px) 100vw, 300px"></a></figure>
-</div>
-</div>
-
-
-
-<hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background is-style-default" style="margin-top:var(--wp--preset--spacing--70);margin-bottom:var(--wp--preset--spacing--70);background-color:#00000059;color:#00000059">
-
-
-
-<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
 <p class="has-text-align-center has-black-color has-text-color"><a href="https://energypsych.org/" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-black-color">Association for Comprehensive Energy Psychology (ACEP) member</mark></a></p>
 </div>
 
@@ -398,7 +679,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 
 
 
-<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-4 wp-block-columns-is-layout-flex">
+<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
 <p class="has-text-align-center has-black-color has-text-color"><a href="https://oblpct.us.thentiacloud.net/webs/oblpct/register/#/profile/C5403/0/0/10/5f8a06ad0405c816a4245ae2" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-black-color">Licensed in the State of Oregon with the Board of Licensed Professional Counselors and Therapists as a LPC, License # C5403</mark></a></p>
 </div>

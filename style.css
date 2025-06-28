@@ -1,0 +1,176 @@
+/* 
+ * Main Stylesheet for Adults and Couples Therapy of Oregon
+ * Adds visual enhancements to navigation dropdowns and other elements
+ */
+
+/* Primary color variables */
+:root {
+  --primary-purple: #7e679b;
+  --primary-blue: #99b4df;
+  --accent-teal: #66afa5;
+  --text-dark: #6c6c72;
+  --text-black: #000000;
+  --bg-light: #f8f9fa;
+  --transition-speed: 0.3s;
+}
+
+/* General active navigation link styles (replaces JS injected styles) */
+.wp-block-navigation a.nav-active span.wp-block-navigation-item__label,
+.wp-block-navigation a.nav-active {
+  color: #ffffff !important;   /* White text on purple background */
+  font-weight: bold !important;
+}
+
+.wp-block-navigation a.nav-active-border {
+  border-bottom: 2px solid #ffffff !important; /* White underline */
+  padding-bottom: 3px !important;
+}
+
+/* Submenu active item */
+.wp-block-navigation__submenu-container a.nav-active {
+  background-color: rgba(126, 103, 155, 0.1) !important; /* Light purple background */
+}
+
+/* Navigation dropdown enhancements */
+.wp-block-navigation-submenu .wp-block-navigation__submenu-container {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity var(--transition-speed) ease, 
+              transform var(--transition-speed) ease,
+              visibility var(--transition-speed) ease;
+  visibility: hidden;
+  min-width: 250px; /* Ensures dropdown is wide enough for content */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 5px !important;
+  background-color: white !important;
+}
+
+/* Show dropdown on hover */
+.wp-block-navigation-submenu:hover .wp-block-navigation__submenu-container,
+.wp-block-navigation-submenu.is-open .wp-block-navigation__submenu-container {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+/* Dropdown item styling */
+.wp-block-navigation__submenu-container .wp-block-navigation-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  transition: background-color var(--transition-speed) ease;
+}
+
+.wp-block-navigation__submenu-container .wp-block-navigation-item:last-child {
+  border-bottom: none;
+}
+
+.wp-block-navigation__submenu-container .wp-block-navigation-item:hover {
+  background-color: rgba(126, 103, 155, 0.1); /* Light purple background on hover */
+}
+
+/* Dropdown toggle icon animation */
+.wp-block-navigation-submenu__toggle svg {
+  transition: transform var(--transition-speed) ease;
+}
+
+.wp-block-navigation-submenu:hover .wp-block-navigation-submenu__toggle svg,
+.wp-block-navigation-submenu.is-open .wp-block-navigation-submenu__toggle svg {
+  transform: rotate(180deg);
+}
+
+/* Main navigation items styling */
+.wp-block-navigation-item__content {
+  position: relative;
+}
+
+/* Underline effect for main navigation items */
+.wp-block-navigation > .wp-block-navigation__container > .wp-block-navigation-item > .wp-block-navigation-item__content::after,
+.wp-block-navigation > .wp-block-navigation-item > .wp-block-navigation-item__content::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-purple);
+  transition: width var(--transition-speed) ease;
+}
+
+/* Active and hover states for navigation items */
+.wp-block-navigation > .wp-block-navigation__container > .wp-block-navigation-item:hover > .wp-block-navigation-item__content::after,
+.wp-block-navigation > .wp-block-navigation__container > .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content::after,
+.wp-block-navigation > .wp-block-navigation-item:hover > .wp-block-navigation-item__content::after,
+.wp-block-navigation > .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content::after {
+  width: 100%;
+}
+
+/* Styles for the current navigation item */
+.wp-block-navigation .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content,
+.wp-block-navigation .current-menu-item > a,
+.wp-block-navigation__container > .current-menu-item > a {
+  color: var(--primary-purple) !important;
+  font-weight: bold;
+}
+
+/* Styles for parent items with active children */
+.wp-block-navigation .wp-block-navigation-item.current-menu-parent > .wp-block-navigation-item__content,
+.wp-block-navigation .current-menu-parent > a,
+.wp-block-navigation__container > .current-menu-parent > a {
+  color: var(--primary-purple) !important;
+}
+
+/* Explicitly target Education, About and other main nav items */
+.wp-block-navigation a[href*="/education/"]:not(.wp-block-navigation__submenu-container a),
+.wp-block-navigation a[href*="/about/"]:not(.wp-block-navigation__submenu-container a),
+.wp-block-navigation a[href*="/skills/"]:not(.wp-block-navigation__submenu-container a),
+.wp-block-navigation a[href*="/therapy/"]:not(.wp-block-navigation__submenu-container a) {
+  position: relative;
+}
+
+/* Match specific URLs when on those pages */
+body[class*="page-education"] .wp-block-navigation a[href*="/education/"],
+body[class*="page-about"] .wp-block-navigation a[href*="/about/"],
+body[class*="page-skills"] .wp-block-navigation a[href*="/skills/"],
+body[class*="page-therapy"] .wp-block-navigation a[href*="/therapy/"] {
+  color: var(--primary-purple) !important;
+  font-weight: bold;
+}
+
+/* Style for current page in submenu */
+.wp-block-navigation__submenu-container .wp-block-navigation-item.current-menu-item > a,
+.wp-block-navigation__submenu-container .current-menu-item > a {
+  background-color: rgba(126, 103, 155, 0.1);
+  color: var(--primary-purple) !important;
+  font-weight: bold;
+}
+
+/* Mobile navigation enhancements */
+@media (max-width: 781px) {
+  .wp-block-navigation__responsive-container.is-menu-open {
+    padding-top: 20px;
+  }
+  
+  .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+    padding-left: 15px;
+    box-shadow: none;
+    position: static;
+    margin-top: 0 !important;
+    background-color: transparent !important;
+  }
+  
+  .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item {
+    border-bottom: none;
+  }
+  
+  .wp-block-navigation__responsive-container-close {
+    transition: transform 0.2s ease;
+  }
+  
+  .wp-block-navigation__responsive-container-close:hover {
+    transform: rotate(90deg);
+  }
+} 
