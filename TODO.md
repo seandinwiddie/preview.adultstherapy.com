@@ -202,6 +202,12 @@ Pages:
 
 ## Priority 5: Visual Design Improvements
 
+references:
+openpathcollective.org
+rowiteen.com
+lincolnparktherapygroup.com
+therapyrising.com
+
 ### Layout and Structure
 30. [ ] Add more whitespace between sections to improve readability - skip for now
 31. [ ] Implement consistent content width across all pages - skip for now
@@ -271,11 +277,12 @@ Please distribute the images evenly down the pages.
     14. [x] therapy/talk-therapy/index.html (Talk Therapy)
     15. [ ] therapy/eft/index.html (Emotional Freedom Technique)
 
+https://stock.adobe.com/search/free
 **Note: Don't reuse images that have already been used elsewhere on the site**
 
 43. [ ] Implement subtle background patterns in header/footer areas
 44. [ ] Add professional headshot with consistent styling across pages
-45. [ ] Create visual icons for different therapy modalities
+45. [x] Create visual icons for different therapy modalities (use fontawesome.com)
 46. [ ] Add visual dividers between content sections
 
 ### Page-Specific Design
