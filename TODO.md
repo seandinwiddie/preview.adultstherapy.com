@@ -239,11 +239,39 @@ Pages:
 41. [ ] Create more dramatic contrast between heading and body text sizes - SKIP
 
 ### Visual Elements
-42. [ ] Add appropriate therapy-related imagery throughout the site; use Unsplash images: example: https://images.unsplash.com/photo-1508962914676-134849a727f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80
+42. [ ] Add appropriate therapy-related imagery throughout the site; use Unsplash images: example: https://images.unsplash.com/photo-1508962914676-134849a727f0
 
 ```
-<img src="https://images.unsplash.com/photo-1508962914676-134849a727f0?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1500&amp;q=80" alt="Saving time" class="feature-image">
+<img src="https://images.unsplash.com/photo-1508962914676-134849a727f0" alt="Saving time" class="feature-image">
 ```
+make sure to check the image url before applying them that they do not produce 404 errors- you can use curl for this
+and do not add parameters to the image url
+dont reuse images that have already been used in the site
+
+Please make sure that the image applies to the exact section that it placed in. Read the content of the page and the section that the image is in to make sure that it is appropriate. Dont think physician or surgeon or dentist, think therapist or counselor.
+
+Follow the image styling on the other pages to make sure that image look correct and fit on the page.
+
+Please distribute the images evenly down the pages.
+
+    Pages:
+    1. [x] index.html (Adults and Couples Therapy of Oregon)
+    2. [ ] about/index.html (About)
+    3. [ ] education/index.html (Education)
+    4. [ ] privacy/index.html (Privacy)
+    5. [ ] sitemap/index.html (Sitemap)
+    6. [x] skills/index.html (Skills)
+    7. [ ] terms/index.html (Terms)
+    8. [x] therapy/index.html (Therapy)
+    9. [x] therapy/cbt/index.html (Cognitive Behavioral Therapy)
+    10. [x] therapy/dbt/index.html (Dialectical Behavior Therapy)
+    11. [x] therapy/gottman/index.html (Gottman's Couple Therapy)
+    12. [ ] therapy/military/index.html (Military)
+    13. [x] therapy/mindfulness/index.html (Mindfulness)
+    14. [x] therapy/talk-therapy/index.html (Talk Therapy)
+    15. [ ] therapy/eft/index.html (Emotional Freedom Technique)
+
+**Note: Don't reuse images that have already been used elsewhere on the site**
 
 43. [ ] Implement subtle background patterns in header/footer areas
 44. [ ] Add professional headshot with consistent styling across pages
