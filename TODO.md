@@ -1,4 +1,22 @@
-# SEO Optimization TODO List for Adults and Couples Therapy of Oregon
+# TODO List for Adults and Couples Therapy of Oregon
+
+## Priority 0: Urgent Business Updates
+
+### Insurance Information Update
+1. [x] Update insurance companies accepted across all pages
+   1. [x] Remove Pacific Source (denied coverage)
+   2. [x] Confirm and update with current accepted insurances:
+     1. CIGNA
+     2. Moda
+     3. Cascade Health Alliance (CHA)
+     4. TriWest
+     5. Atrio
+     6. Other current accepted insurances
+
+   Confirm that the following pages are updated:
+   3. [x] index.html (Adults and Couples Therapy of Oregon)
+   4. [x] about/index.html (About)
+   5. [x] Any other pages with insurance information (therapy/eft/index.html, therapy/talk-therapy/index.html)
 
 ## Priority 1: High-Traffic Page Optimizations
 
