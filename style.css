@@ -45,6 +45,14 @@
   overflow: hidden;
   margin-top: 5px !important;
   background-color: white !important;
+  position: absolute !important;
+  z-index: 999999 !important; /* Extremely high z-index to ensure it's on top */
+}
+
+/* Ensure the main navigation container has proper positioning */
+.wp-block-navigation {
+  position: relative !important;
+  z-index: 999998 !important;
 }
 
 /* Show dropdown on hover */
@@ -308,7 +316,7 @@ body[class*="page-therapy"] .wp-block-navigation a[href*="/therapy/"] {
 
 .hero-content {
   position: relative;
-  z-index: 2;
+  z-index: 1;
   max-width: 800px;
   padding: 2rem;
 }
